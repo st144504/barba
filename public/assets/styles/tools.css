@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+:root {
+	--tool-panel--fg-color: #47789033;
+	--tool-panel-bg-color: #477890;
+	--tool-bg-color: #1C254144;
+	--tool-fg-color: #FFFFFF66;
+	--tool-bg-hover-color: #E1E289;
+	--tool-fg-hover-color: #99AA38;
+}
+
+.tool-panel {
+	font-family:monospace;
+	font-size: 1.1rem;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	margin: 10px;
+	background-color: var(--tool-panel-fg-color);
+	border: 1px var(--tool-panel-bg-color) solid;
+}
+
+.tool {
+	display: block;
+	padding: 15px 10px;
+	text-align: center;
+	background-color: var(--tool-bg-color);
+	color: var(--tool-fg-color);
+	cursor: pointer;
+}
+
+.tool:hover {
+	color: var(--tool-fg-hover-color);
+	background-color: var(--tool-bg-hover-color);
+}
+
+.tool-full{
+	font-weight: 800;
+}
+
+.tool .tool-short, .tool:hover .tool-full {
+	display: inline;
+}
+
+.tool .tool-full, .tool:hover .tool-short {
+	display: none;
+}
+
+

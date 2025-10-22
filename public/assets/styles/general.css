@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+:root {
+	--color-black: #071013;
+	--color-red: #D11149;
+	--color-gold: #F39237;
+	--color-blue: #477890;
+	--color-light: #B0D0D3;
+}
+
+body {
+	width: 90%;
+	margin-left: 5%;
+	color: var(--color-black);
+}
+
+.magister {
+	color: (--var-color-gold);
+}
+
+.toc {
+	font-size: 1.3rem;
+}
+
+.toc a {
+	color: var(--color-blue);
+}
+
+.toc a:after {
+	content: ' \203a  ';
+}
+
+.toc .section {
+	margin-right: 10px;
+}
+
+.plan {
+	margin-right: 0;
+	margin-left: auto;
+	width: 50%;
+	color: (--var-color-light);
+}

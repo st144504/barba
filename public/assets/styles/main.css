@@ -1,0 +1,13 @@
+body {
+	font-family: "Jost", "Arial";
+	font-weight: 400;
+	padding-top: 1rem;
+	scroll-behavior: smooth;
+	color: #230903;
+}
+
+html, body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
