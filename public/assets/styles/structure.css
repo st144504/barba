@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-:root {
-	--color-black: #071013;
-	--color-red: #D11149;
-	--color-gold: #F39237;
-	--color-blue: #477890;
-	--color-light: #B0D0D3;
-}
-
 .section {
 	width: 90%;
 	margin-left: 5%;
@@ -48,7 +40,8 @@
 	color: var(--color-blue);
 }
 
-.block  table td, th {
+.block table td,
+th {
 	padding: 5px;
 	border-radius: 3px;
 	border: 1px var(--color-light) solid;
@@ -124,7 +117,7 @@
 }
 
 .illustration {
-	
+	font-style: italic;
 }
 
 .conclusion {
@@ -244,7 +237,7 @@
 	font-size: 1.2rem;
 }
 
-.picture{
+.picture {
 	background-color: cornsilk;
 	border-radius: 10px;
 	text-align: center;
