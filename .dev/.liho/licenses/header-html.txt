@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!--
 # Copyright (c) St144504 2025
 # 
@@ -17,22 +16,3 @@
 # their affiliate or an authorized dealer has been advised of the possibility of such damages. 
 # 
 -->
-
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Freshman year of 2025/2026</title>
-<link rel="icon" href="public/assets/images/books16.png">
-<link rel="stylesheet" href="public/assets/styles/jost.css">
-<link rel="stylesheet" href="public/assets/styles/main.css">
-<link rel="stylesheet" href="public/assets/styles/general.css">
-</head>
-<body>
-<div>
-	<div class="container-fluid">
-		<
-		</div>
-<a href = "public/law-and-state/00-general-info.html" >Law and state </a>
-</div>
-</body>
-</html>
