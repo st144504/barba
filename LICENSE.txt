@@ -1,0 +1,40 @@
+Site Source License
+Version 1.0
+October 2025
+
+DEFINITIONS
+For the purposes of this license following definitions must stand:
+1. Site must stand for Freshman site developed by St144504.
+2. Site Sources must stand for either resident or cloned or copied or gained otherwise
+   source code, documentation, configuration files, 
+   art work (images, styles, fonts, etc) and any other content of the Site,
+   partially or as a whole, except for third-party sources and license agreements.
+3. St144504 must stand for the owner of repository https://github.com/st144504/freshman
+   
+This license defines terms and restrictions for using Site Sources. 
+If you (as an individual or Legal Entity) are not agree, partially or entirely, 
+with these terms and/or not intended to respect and follow, partially or entirely, 
+these restrictions, you cannot use Site Sources.
+
+COPYRIGHT
+Site Sources, including this agreement, are property of St144504. 
+
+GRANTS
+Site Sources are publicly available only for informational, review, analysis 
+and consulting purposes.
+
+RESTRICTIONS
+Everything that is not directly granted by the GRANTS section above is precisely prohibited.
+Including, but not limited to the following declarations.
+ You (as an individual or Legal Entity) 
+   (1) may NOT modify, replenish or diminish Site Sources,
+   (2) may NOT include Site Sources to any other product or project,
+   (3) may NOT produce other site from or with Site Sources.
+
+DISCLAIMER
+For the purposes stated above Site Sources are provided on "as is" basis. 
+St144504 takes no obligation to satisfy any request regarding Site Sources, 
+theirs availability, quality, security, safety or any other characteristic whatsoever.
+St144504 is not responsible for any damages, losses, legal prosecution 
+or other consequences of any sort that using Site Sources can cause to you 
+(as an individual or Legal Entity), even if aware of such consequences.
