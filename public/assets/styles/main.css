@@ -39,7 +39,6 @@
 body {
 	font-family: "Jost", "Arial";
 	font-weight: 400;
-	padding-top: 1rem;
 	scroll-behavior: smooth;
 	color: var(--color-black);
 }
