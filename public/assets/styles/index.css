@@ -196,13 +196,5 @@ ul li:before {
 }
 
 .toc {
-	
-}
-
-.seminar {
-	
-}
-
-.lection {
-	
+	text-align: left;
 }
