@@ -17,47 +17,53 @@
 * 
 */
 
-@charset "UTF-8";
-
-:root {
-	--color-black: #071013;
-	--color-red: #D11149;
-	--color-gold: #F39237;
-	--color-blue: #477890;
-	--color-light: #B0D0D3;
-	--color-slight: #CBEEF3;
-	--color-green: #09BC8A;
-	--color-green-light: #90A583;
-	--color-green-dark: #093824;
-	--color-purple: #36213E;
-	--color-ivory: #FFFFEA;
-	--color-pink: #FFDDE2;
-	--color-brown: #2D1115;
-	--color-green-slight: rgb(237, 254, 250);
-
-}
-
-body {
-	font-family: "Jost", "Arial";
-	font-weight: 400;
-	scroll-behavior: smooth;
-	color: var(--color-black);
-}
-
-html,
-body {
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-}
-
-.ytbd {
-	background-color: var(--color-light);
-	color: black;
-	font-style: italic;
-}
-
-.ytbd:before {
-	content: "YTBD ";
+.name {
+	text-align: center;
+	font-size: 150%;
 	color: var(--color-red);
+}
+
+.list-marked {
+	list-style: circle;
+}
+
+table.a-doc ul,
+ol {
+	margin: 2px;
+}
+
+table.a-doc ul:not(.list-marked) {
+	list-style: none;
+}
+
+table.a-doc tr td.chapter {
+	text-align: center;
+	width: 8%;
+	border-left: none;
+	border-bottom: none;
+	border-right: none;
+
+}
+
+table.a-doc tr td:not(.chapter) {
+	font-size: 80%;
+}
+
+table.a-doc tr td:last-child {
+	color: var(--color-purple);
+	font-weight: 600;
+	width: 40%;
+	font-size: 100%;
+}
+
+table.a-doc tr td:last-child ul,
+ol {
+	font-size: 80%;
+
+}
+
+
+
+.a-2020 {
+	background-color: var(--color-green-slight);
 }
