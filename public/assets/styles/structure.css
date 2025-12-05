@@ -246,6 +246,10 @@ th {
 	color: white;
 }
 
+q::before{
+	content: '> ? <';
+	background-color: var(--color-red);
+}
 
 .larger {
 	font-size: 1.2rem;
