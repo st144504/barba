@@ -1,0 +1,8 @@
+digraph Acts {
+   node [style=filled];
+   prav_act -> prav_act_action;
+   prav_act -> prav_act_document;
+   prav_act [label="Правовой акт" color="0.400 0.500 1.000" ];
+   prav_act_action [label="Правовой акт" color="0.000 0.500 1.000" ];
+   prav_act_document [label="ПА\nДокумент " color="0.000 1.000 1.000" ];
+}
