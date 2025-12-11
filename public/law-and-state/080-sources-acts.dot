@@ -1,8 +1,79 @@
 digraph Acts {
-   node [style=filled];
-   prav_act -> prav_act_action;
+   node [penwidth=4 style=rounded] ;
+   node [color="#F39237" shape=rect];prav_act_document nenorm norm general geteronomic_g autonomic_g;
+   node [color="#DAD2D8" shape=rect];personal geteronomic_p autonomic_p;
+   node [color="#8CB369" shape = component]; prav_act_action event event_abs event_rel action action_legal action_illegal legal_act legal_deed illegal_light illegal_severe;
+   node [fontcolor="#CC2936" color="#5B8E7D" shape = note]; s_nenorm s_geteronomic_g s_geteronomic_p s_autonomic_g s_autonomic_p s_event_abs s_event_rel s_legal_act s_legal_deed s_illegal_light s_illegal_severe;
+   node [fontcolor="black" shape=rect] 
+
    prav_act -> prav_act_document;
-   prav_act [label="Правовой акт" color="0.400 0.500 1.000" ];
-   prav_act_action [label="Правовой акт" color="0.000 0.500 1.000" ];
-   prav_act_document [label="ПА\nДокумент " color="0.000 1.000 1.000" ];
+   prav_act_document -> nenorm;
+   prav_act_document -> norm;
+   norm -> general;
+   norm -> personal;
+   general -> geteronomic_g;
+   general -> autonomic_g;
+   personal -> geteronomic_p;
+   personal -> autonomic_p;
+   nenorm->s_nenorm [color="#5B8E7D" arrowhead=none style=dashed penwidth=4];
+   geteronomic_g -> s_geteronomic_g [color="#5B8E7D" arrowhead=none style=dashed penwidth=4];
+   geteronomic_p -> s_geteronomic_p[color="#5B8E7D" arrowhead=none style=dashed penwidth=4];
+   autonomic_g  -> s_autonomic_g[color="#5B8E7D" arrowhead=none style=dashed penwidth=4];
+   autonomic_p -> s_autonomic_p[color="#5B8E7D" arrowhead=none style=dashed penwidth=4];
+   
+  
+   
+   prav_act [label="Правовой\nакт" color="lightgray" ];
+   prav_act_document [label="ПА-Документ\nИСТОЧНИКИ ПРАВА"];
+   nenorm [label="Ненорма\nтивный"];
+   norm [label="Нормативный:\nЗакон/Подзаконный акт"];
+   general [label="Общий"];
+   personal [label="Персональ\nный"];
+   geteronomic_g [label="Гетеро\nномный"];
+   geteronomic_p [label="Гетеро\nномный"];
+   autonomic_g [label="Авто\nномный"];
+   autonomic_p [label="Авто\nномный"];
+    s_nenorm [label="Свидетельство\nо рождении"];
+	s_geteronomic_g [label="Закон"];
+	s_geteronomic_p [label="Указ о\nнаграждении,\nрешение суда"];
+	s_autonomic_g [label="Коллективный\nдоговор"];
+	s_autonomic_p [label="Договор\nкупли-продажи"];
+   
+
+   prav_act_action [label="ПА-Действия\n(Юридические факты)\nПРАВОВЫЕ ОТНОШЕНИЯ"];
+   event [label="Событие"];
+   event_abs [label="Абсолютное"];
+   event_rel [label="Относительное"];
+   action [label="Действие"];
+   action_legal [label="Правовое"];
+   action_illegal [label="Неправовое"];
+   legal_act [label="?"];
+   legal_deed [label="Поступок"];
+   illegal_light [label="Проступок"];
+   illegal_severe [label="Преступление"];
+   s_event_abs [label="Попадание\nмолнии\nв амбар"];
+   s_event_rel[label="Поджег\nамбара"];
+   s_legal_act [label="Заключение\nдоговора\nкупли-продажи"];
+   s_legal_deed [label="Находка"];
+   s_illegal_light [label="КоАП"];
+   s_illegal_severe [label="УК"];
+   
+    prav_act -> prav_act_action;
+   prav_act_action -> event;
+   prav_act_action -> action;
+   event->event_abs;
+   event->event_rel;
+   action -> action_legal;
+   action -> action_illegal;
+   action_legal -> legal_act;
+   action_legal -> legal_deed;
+   action_illegal -> illegal_light;
+   action_illegal -> illegal_severe;
+   event_abs -> s_event_abs [color="#5B8E7D" arrowhead=none style=dashed penwidth=4];
+   event_rel -> s_event_rel [color="#5B8E7D" arrowhead=none style=dashed penwidth=4];
+   legal_act -> s_legal_act [color="#5B8E7D" arrowhead=none style=dashed penwidth=4];
+   legal_deed -> s_legal_deed [color="#5B8E7D" arrowhead=none style=dashed penwidth=4];
+   illegal_light -> s_illegal_light [color="#5B8E7D" arrowhead=none style=dashed penwidth=4];
+   illegal_severe -> s_illegal_severe [color="#5B8E7D" arrowhead=none style=dashed penwidth=4];
+   
 }
