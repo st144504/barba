@@ -241,12 +241,16 @@ th {
 	background-color: var(--color-light);
 }
 
+emph {
+	background-color: var(--color-light);
+}
+
 .question {
 	background-color: var(--color-red);
 	color: white;
 }
 
-q::before{
+q::before {
 	content: '> ? <';
 	background-color: var(--color-red);
 }
