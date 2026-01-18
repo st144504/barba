@@ -270,7 +270,7 @@
 <polygon fill="none" stroke="#5b8e7d" stroke-width="4" points="1082.1984,-144.2019 960.5162,-144.2019 960.5162,-102.9981 1088.1984,-102.9981 1088.1984,-138.2019 1082.1984,-144.2019"/>
 <polyline fill="none" stroke="#5b8e7d" stroke-width="4" points="1082.1984,-144.2019 1082.1984,-138.2019 "/>
 <polyline fill="none" stroke="#5b8e7d" stroke-width="4" points="1088.1984,-138.2019 1082.1984,-138.2019 "/>
-<text text-anchor="middle" x="1024.3573" y="-127.8" font-family="Times,serif" font-size="14.00" fill="#cc2936">Поджег</text>
+<text text-anchor="middle" x="1024.3573" y="-127.8" font-family="Times,serif" font-size="14.00" fill="#cc2936">Поджог</text>
 <text text-anchor="middle" x="1024.3573" y="-111" font-family="Times,serif" font-size="14.00" fill="#cc2936">амбара</text>
 </g>
 <!-- event_rel&#45;&gt;s_event_rel -->
