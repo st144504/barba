@@ -1,0 +1,44 @@
+{
+	"sources": [
+		{
+			"id": "fz414",
+			"type": "fz",
+			"num": "414-ФЗ",
+			"date": "21.12.2021",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_404070",
+			"title": "Об общих принципах организации публичной власти в субъектах Российской Федерации"
+		},
+		{
+			"id": "fz248",
+			"type": "fz",
+			"num": "248-ФЗ",
+			"date": "31.07.2020",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_358750/",
+			"title": "О государственном контроле (надзоре) и муниципальном контроле в РФ"
+		},
+		{
+			"id": "fz247",
+			"type": "fz",
+			"num": "247-ФЗ",
+			"date": "31.07.2020",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_358670/",
+			"title": "Об обязательных требованиях в РФ"
+		},
+		{
+			"id": "fz210",
+			"type": "fz",
+			"num": "210-ФЗ",
+			"date": "27.07.2010",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_103023/",
+			"title": "Об организации предоставления государственных и муниципальных услуг"
+		},
+		{
+			"id": "",
+			"type": "",
+			"num": "",
+			"date": "",
+			"link": "",
+			"title": ""
+		}
+	]
+}
