@@ -2,39 +2,53 @@
 	"sourcetypes": [
 		{
 			"id": "c",
-			"description": "Конституция"
+			"description": "",
+			"brief": ""
 		},
 		{
 			"id": "fz",
-			"description": "Федеральный Закон"
+			"description": "Федеральный Закон",
+			"brief": "ФЗ"
+		},
+		{
+			"id": "fzk",
+			"description": "Кодекс",
+			"brief": ""
 		},
 		{
 			"id": "fkz",
-			"description": "Федеральный Конституционный Закон"
+			"description": "Федеральный Конституционный Закон",
+			"brief": "ФКЗ"
 		},
 		{
 			"id": "up",
-			"description": "Указ Президента"
+			"description": "Указ Президента",
+			"brief": "УП"
 		},
 		{
 			"id": "pp",
-			"description": "Постановление Правительства"
+			"description": "Постановление Правительства",
+			"brief": "ПП"
 		},
 		{
 			"id": "ppvs",
-			"description": "Постановление Пленума BС РФ"
+			"description": "Постановление Пленума BС РФ",
+			"brief": "ППВС"
 		},
 		{
 			"id": "aovs",
-			"description": "Апелляционное определение Апелляционной коллегии BС РФ"
+			"description": "Апелляционное определение Апелляционной коллегии BС РФ",
+			"brief": "Определение АК ВС"
 		},
 		{
 			"id": "oks",
-			"description": "Определение КС РФ"
+			"description": "Определение КС РФ",
+			"brief": "ОКС"
 		},
 		{
 			"id": "pks",
-			"description": "Постановление КС РФ"
+			"description": "Постановление КС РФ",
+			"brief": "ПКС"
 		}
 	]
 }

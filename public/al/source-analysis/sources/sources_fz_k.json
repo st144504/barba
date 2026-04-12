@@ -2,7 +2,7 @@
 	"sources": [
 		{
 			"id": "gk",
-			"type": "fz",
+			"type": "fzk",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_5142/",
 			"title": "ГК РФ"
 		},
@@ -14,19 +14,19 @@
 		},
 		{
 			"id": "apk",
-			"type": "fz",
+			"type": "fzk",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_37800",
 			"title": "АПК РФ"
 		},
 		{
 			"id": "gpk",
-			"type": "fz",
+			"type": "fzk",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_39570",
 			"title": "ГПК РФ"
 		},
 		{
 			"id": "kas",
-			"type": "fz",
+			"type": "fzk",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_176147",
 			"title": "КАС"
 		}
