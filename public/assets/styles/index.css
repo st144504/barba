@@ -132,16 +132,20 @@ ul li:before {
 	border-color: var(--color-purple);
 }
 
-.law-and-state {
+.law-and-state, .sub-a {
 	border-color: var(--color-red);
 }
 
-.constitutional-law {
+.constitutional-law, .sub-b {
 	border-color: var(--color-gold);
 }
 
-.lea {
+.lea, .sub-c {
 	border-color: var(--color-blue);
+}
+
+.sub-d {
+	border-color: var(--color-green);
 }
 
 .footer a:after {
