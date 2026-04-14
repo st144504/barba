@@ -100,3 +100,30 @@
 	word-break: break-all;
 	white-space: pre-wrap
 }
+
+.tooltip {
+	border-radius: 5px;
+	background-color: floralwhite;
+	border: 1px solid gray;
+	position: absolute;
+	display: none;
+	width: 500px;
+	padding: 10px;
+	opacity: 1000;
+	font-family: consolas, monospace;
+}
+
+.details {
+	padding: 3px 3px 10px 3px;
+
+}
+
+.explanation {
+	font-style: italic;
+	padding-left: 10px;
+	margin-left: 10px;
+	border-left: 1px solid darkgray;
+}
+
+.explanation:before {
+}

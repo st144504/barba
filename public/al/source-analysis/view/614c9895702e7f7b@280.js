@@ -12,6 +12,7 @@ function _chart(Tree, flare) {
 			label: d => d.name,
 			title: _title, // hover text
 			link: _link,
+			cls: _cls,
 			width: 1800
 		})
 	)
@@ -26,8 +27,14 @@ function _flare(FileAttachment) {
 function _link(data, node) {
 	return node.data.link ? node.data.link : "";
 }
+
 function _title(data, node) {
-	return node.data.title ? node.data.title : "";
+	var ti = node.data.title ? node.data.title : "";
+	return ti;
+}
+
+function _cls(data, node) {
+	return node.data.cls ? node.data.cls : "";
 }
 
 function _Tree(d3) {
@@ -42,6 +49,7 @@ function _Tree(d3) {
 			label, // given a node d, returns the display name
 			title, // given a node d, returns its hover text
 			link, // given a node d, its link (if any)
+			cls, // given a node d, its class (if any)
 			linkTarget = "_blank", // the target attribute for links (if any)
 			width = 1780, // outer width, in pixels
 			height, // outer height, in pixels
@@ -123,14 +131,17 @@ function _Tree(d3) {
 				.attr("target", link == null ? null : linkTarget)
 				.attr("transform", d => `translate(${d.y},${d.x})`)
 				.on("mouseover", _overed)
+				.attr("class", d => cls(d.data, d))
 				.on("mouseout", _outed);
 
 			node.append("circle")
 				.attr("fill", d => d.children ? stroke : fill)
 				.attr("r", r);
 
+			/*
 			if (title != null) node.append("title")
 				.text(d => title(d.data, d));
+			*/
 
 			if (L) node.append("text")
 				.attr("dy", "0.32em")
@@ -142,14 +153,36 @@ function _Tree(d3) {
 				.text((d, i) => L[i]);
 
 			function _overed(event, d) {
+				var cls = d3.select(this).attr("class");
+				d3.selectAll('.' + cls).attr("fill", "Tomato");
 				d3.select(this).attr("font-weight", "bold")//
-					.attr("fill", "red");
-				//d3.selectAll(d.incoming.map(d => d.path)).attr("stroke", colorin).raise();
-
+					.attr("fill", "FireBrick");
+				_showExplanation(event, d);
 			}
 			function _outed(event, d) {
 				d3.select(this).attr("font-weight", null)
 					.attr("fill", null);
+				var cls = d3.select(this).attr("class");
+				d3.selectAll('.' + cls).attr("fill", null);
+				_hideExplanation(event, d);
+			}
+			function _showExplanation(event, d) {
+				let quote = d.data.quote;
+				if (quote == undefined) {
+					return;
+				}
+				let tooltip = document.getElementById("explanation");
+				tooltip.style.left = event.x + 10 + 'px';
+				tooltip.style.top = event.y + 10 + 'px';
+				tooltip.style.display = "block";
+				document.getElementById("explanation_quote").innerHTML = quote;
+				if (d.data.details != undefined) {
+					document.getElementById("explanation_details").innerHTML = d.data.details;
+				}
+
+			}
+			function _hideExplanation(event, d) {
+				document.getElementById("explanation").style.display = "none";
 			}
 			return svg.node();
 		}
