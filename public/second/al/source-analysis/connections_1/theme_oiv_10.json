@@ -1,0 +1,53 @@
+{
+	"themes": [
+		{
+			"id": "func",
+			"parent": "oiv",
+			"description": "Внутренняя организация деятельности ОИВ"
+		}
+	],
+	"connections": [
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		}
+	]
+}
