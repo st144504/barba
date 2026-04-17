@@ -111,11 +111,11 @@
 	padding: 10px;
 	opacity: 1000;
 	font-family: consolas, monospace;
+	font-size: 10px;
 }
 
 .details {
 	padding: 3px 3px 10px 3px;
-
 }
 
 .explanation {
@@ -123,7 +123,4 @@
 	padding-left: 10px;
 	margin-left: 10px;
 	border-left: 1px solid darkgray;
-}
-
-.explanation:before {
 }

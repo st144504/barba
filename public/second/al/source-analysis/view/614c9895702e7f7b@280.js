@@ -1,8 +1,7 @@
 function _1(md) {
 	return (
-		md`# wtf?
-
-get some help`
+		md`### ну такое
+`
 	)
 }
 
