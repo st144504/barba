@@ -1,19 +1,17 @@
 {
-	
 	"themes": [
-			{
-				"id": "",
-				"parent": "",
-				"description": ""
-			}
-		],
-		"connections": [
-			
-			{
-				"source": "",
-				"theme": "",
-				"location": "",
-				"quote": ""
-			}
-		]
+		{
+			"id": "",
+			"parent": "",
+			"description": ""
+		}
+	],
+	"connections": [
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"quote": ""
+		}
+	]
 }

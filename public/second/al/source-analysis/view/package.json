@@ -1,14 +1,14 @@
 {
-  "name": "614c9895702e7f7b",
-  "main": "614c9895702e7f7b@280.js",
-  "version": "280.0.0",
-  "homepage": "https://observablehq.com/d/614c9895702e7f7b",
-  "author": {
-    "name": "freshman",
-    "url": "https://observablehq.com/@freshman"
-  },
-  "type": "module",
-  "peerDependencies": {
-    "@observablehq/runtime": "4 - 5"
-  }
+	"name": "614c9895702e7f7b",
+	"main": "614c9895702e7f7b@280.js",
+	"version": "280.0.0",
+	"homepage": "https://observablehq.com/d/614c9895702e7f7b",
+	"author": {
+		"name": "freshman",
+		"url": "https://observablehq.com/@freshman"
+	},
+	"type": "module",
+	"peerDependencies": {
+		"@observablehq/runtime": "4 - 5"
+	}
 }

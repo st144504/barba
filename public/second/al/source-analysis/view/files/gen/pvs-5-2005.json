@@ -1,16 +1,16 @@
 {
 	"name": "5 от 24.03.2005   О применении КоАП судами",
 	"children": [
- 	{
-		"name": "Судебной практика",
-		"children":[
 		{
-			"name": ": ",
-			"cls": "pvs-5-2005",
-			"quote": "[YTBD]",
-			"link": "https://www.consultant.ru/document/cons_doc_LAW_52681/"
+			"name": "Судебной практика",
+			"children": [
+				{
+					"name": ": ",
+					"cls": "pvs-5-2005",
+					"quote": "[YTBD]",
+					"link": "https://www.consultant.ru/document/cons_doc_LAW_52681/"
+				}
+			]
 		}
-		]
-	}
 	]
 }
