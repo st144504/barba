@@ -1,0 +1,34 @@
+{
+	"sources": [
+		{
+			"id": "gk",
+			"type": "fzk",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_5142/",
+			"title": "ГК РФ"
+		},
+		{
+			"id": "koap",
+			"type": "fz",
+			"link": "https://legalacts.ru/kodeks/KOAP-RF/",
+			"title": "КоАП РФ"
+		},
+		{
+			"id": "apk",
+			"type": "fzk",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_37800",
+			"title": "АПК РФ"
+		},
+		{
+			"id": "gpk",
+			"type": "fzk",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_39570",
+			"title": "ГПК РФ"
+		},
+		{
+			"id": "kas",
+			"type": "fzk",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_176147",
+			"title": "КАС"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"sources": [
+		{
+			"id": "pvs-21-2022",
+			"type": "ppvs",
+			"num": "21",
+			"date": "28.06.2022",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_420838/",
+			"title": "О применении гл. 22 КАС и гл. 24 АПК"
+		},
+		{
+			"id": "pvs-50-2018",
+			"type": "ppvs",
+			"num": "50 ",
+			"date": "25.12.2018",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_314764/",
+			"title": "Об оспаривании НПА и разъяснений с нормативными свойствами (21 КАС и 23 АПК)"
+		},
+		{
+			"id": "pvs-18-2021",
+			"type": "ppvs",
+			"num": "18",
+			"date": "22.06.2021",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_388236/",
+			"title": "О досудебном урегулирования гражданских и арбитражных споров"
+		},
+		{
+			"id": "pvs-5-2005",
+			"type": "ppvs",
+			"num": "5",
+			"date": "24.03.2005 ",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_52681/",
+			"title": "О применении КоАП судами"
+		},
+		{
+			"id": "pvs-8-1995",
+			"type": "ppvs",
+			"num": "8",
+			"date": "31.10.1995",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_8847/",
+			"title": "О применении судами Конституции РФ"
+		},
+		{
+			"id": "aovs-538-2020",
+			"type": "aovs",
+			"num": "АПЛ19-538",
+			"date": "14.01.2020",
+			"link": "https://legalacts.ru/sud/apelliatsionnoe-opredelenie-apelliatsionnoi-kollegii-verkhovnogo-suda-rf-ot-14012020-n-apl19-538/",
+			"title": "МО Город Новодвинск"
+		},
+		{
+			"id": "",
+			"type": "",
+			"num": "",
+			"date": "",
+			"link": "",
+			"title": ""
+		}
+	]
+}

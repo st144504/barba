@@ -1,0 +1,10 @@
+{
+	"sources": [
+		{
+			"id": "rfc",
+			"type": "c",
+			"title": "Конституция РФ",
+			"link": "http://kremlin.ru/acts/constitution"
+		}
+	]
+}
