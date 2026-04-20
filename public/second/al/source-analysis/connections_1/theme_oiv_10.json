@@ -3,7 +3,7 @@
 		{
 			"id": "ovi_struct_func",
 			"parent": "oiv",
-			"description": "Внутренняя организация деятельности ОИВ"
+			"description": "Внутр. организация"
 		}
 	],
 	"connections": [
