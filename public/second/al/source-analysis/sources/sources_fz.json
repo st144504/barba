@@ -33,12 +33,28 @@
 			"title": "Об госуслугах"
 		},
 		{
-			"id": "",
-			"type": "",
-			"num": "",
-			"date": "",
-			"link": "",
-			"title": ""
+			"id": "fz-229-2007",
+			"type": "fz",
+			"num": "229",
+			"date": "02.10.2007",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_71450/",
+			"title": "Об исполнительном производстве"
+		},
+		{
+			"id": "fz-79-2004",
+			"type": "fz",
+			"num": "79",
+			"date": "27.07.2004",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_48601/",
+			"title": "О государственной гражданской службе РФ"
+		},
+		{
+			"id": "fz-273-2008",
+			"type": "fz",
+			"num": "273",
+			"date": "25.12.2008",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_82959/",
+			"title": "О противодействии коррупции"
 		}
 	]
 }
