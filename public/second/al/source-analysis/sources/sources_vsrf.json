@@ -55,6 +55,21 @@
 			"date": "27.09.2016",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_205136/d71ce9503f7190114ef51dfb3f370cc272482f08/",
 			"title": "О некоторых вопросах применения судами КАС РФ"
+		},
+		{
+			"id": "ospvs-25.04.2025",
+			"type": "ospvs",
+			"date": "25.04.2025",
+			"link": "https://www.vsrf.ru/documents/all/34364/",
+			"title": "нарушения антимонопольного законодательства"
+		},
+		{
+			"id": "pvs-50-2015",
+			"type": "ppvs",
+			"num": "50 ",
+			"date": " 17.11.2015",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_189010/",
+			"title": "Об исполнительном производстве"
 		}
 	]
 }

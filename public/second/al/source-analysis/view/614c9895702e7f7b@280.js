@@ -171,8 +171,8 @@ function _Tree(d3) {
                     return;
                 }
                 let tooltip = document.getElementById("explanation");
-                tooltip.style.left = event.x + 10 + 'px';
-                tooltip.style.top = event.y + 10 + 'px';
+                tooltip.style.left = event.offsetX + 20 + 'px';
+                tooltip.style.top = event.offsetY + 20 + 'px';
                 tooltip.style.display = "block";
                 document.getElementById("explanation_quote").innerHTML = quote;
                 if (d.data.details != undefined) {

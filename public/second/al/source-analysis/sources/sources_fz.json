@@ -55,6 +55,102 @@
 			"date": "25.12.2008",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_82959/",
 			"title": "О противодействии коррупции"
+		},
+		{
+			"id": "fz-82-1995",
+			"type": "fz",
+			"num": "82",
+			"date": "19.05.1995",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_6693/",
+			"title": "Об общественных объединениях"
+		},
+		{
+			"id": "fz-99-2011",
+			"type": "fz",
+			"num": "99",
+			"date": "04.05.2011",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_113658/",
+			"title": "О лицензировании отдельных видов деятельности"
+		},
+		{
+			"id": "fz-129-2001",
+			"type": "fz",
+			"num": "129",
+			"date": "08.08.2001",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_32881/",
+			"title": "О гос. регистрации ЮЛ и ИП"
+		},
+		{
+			"id": "fz-215-2015",
+			"type": "fz",
+			"num": "215",
+			"date": "13.07.2015",
+			"link": "https://base.garant.ru/71127782/",
+			"title": "О гос. корпорацииРоскосмос"
+		},
+		{
+			"id": "",
+			"type": "fz",
+			"num": "",
+			"date": "",
+			"link": "",
+			"title": ""
+		},
+		{
+			"id": "",
+			"type": "fz",
+			"num": "",
+			"date": "",
+			"link": "",
+			"title": ""
+		},
+		{
+			"id": "",
+			"type": "fz",
+			"num": "",
+			"date": "",
+			"link": "",
+			"title": ""
+		},
+		{
+			"id": "",
+			"type": "fz",
+			"num": "",
+			"date": "",
+			"link": "",
+			"title": ""
+		},
+		{
+			"id": "",
+			"type": "fz",
+			"num": "",
+			"date": "",
+			"link": "",
+			"title": ""
+		},
+		{
+			"id": "",
+			"type": "fz",
+			"num": "",
+			"date": "",
+			"link": "",
+			"title": ""
+		},
+		{
+			"id": "",
+			"type": "fz",
+			"num": "",
+			"date": "",
+			"link": "",
+			"title": ""
+		},
+		{
+			"id": "",
+			"type": "fz",
+			"num": "",
+			"date": "",
+			"link": "",
+			"title": ""
 		}
 	]
 }
