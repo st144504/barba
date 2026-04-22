@@ -11,6 +11,17 @@
 			"link": "https://legalacts.ru/kodeks/KOAP-RF/"
 		}
 		]
+	},
+	{
+		"name": "Представительство",
+		"children":[
+		{
+			"name": " ст. 25.3: ",
+			"cls": "koap",
+			"quote": "Статья 25.3. Законные представители физического лица",
+			"link": "https://legalacts.ru/kodeks/KOAP-RF/"
+		}
+		]
 	}
 	]
 }
