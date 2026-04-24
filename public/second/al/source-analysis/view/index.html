@@ -5,10 +5,12 @@
 	<meta charset="utf-8">
 	<link rel="icon" href="/public/assets/images/books16.png">
 	<link rel="stylesheet" type="text/css" href="./inspector.css">
+	<link rel="stylesheet" type="text/css" href="./tools.css">
 	<title>АП | Исходники</title>
 </head>
 
-<body>
+<body class="flippable">
+	<div id="flip_tool" title="it's just to grow even weirder">Train your brain</div>
 	<div id="explanation" class="tooltip">
 		<div id="explanation_details" class="details"></div>
 		<div id="explanation_quote" class="explanation"></div>
@@ -20,6 +22,25 @@
 
 		const runtime = new Runtime();
 		const main = runtime.module(define, Inspector.into(document.body));
+	</script>
+	<script lang="javascript">
+		document.getElementById("flip_tool").onclick = toggleFlip;
+		
+		function toggleFlip() {
+			let tool = document.getElementById("flip_tool");
+			let cls = "flip";
+			for (let target of document.getElementsByClassName("flippable")) {
+				if (target.classList.contains(cls)) {
+					target.classList.remove(cls);
+					tool.innerHTML = "Train your brain";
+					tool.title="it's just to grow even weirder"
+				} else {
+					tool.innerHTML = "Rest your brain";
+					tool.title="it is weird enough as it is, thank you very much"
+					target.classList.add(cls);
+				}
+			}
+		}
 	</script>
 </body>
 
