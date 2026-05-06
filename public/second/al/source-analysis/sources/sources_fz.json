@@ -6,7 +6,7 @@
 			"num": "414",
 			"date": "21.12.2021",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_404070",
-			"title": "О власти в субъектах"
+			"title": "Об организации пусбличной власти в субъектах"
 		},
 		{
 			"id": "fz248",
@@ -46,7 +46,7 @@
 			"num": "79",
 			"date": "27.07.2004",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_48601/",
-			"title": "О государственной гражданской службе РФ"
+			"title": "О ГГС РФ"
 		},
 		{
 			"id": "fz-273-2008",
@@ -143,6 +143,30 @@
 			"date": "21.12.2021",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_404070",
 			"title": "Об общих принципах организации публичной власти в субъектах РФ"
+		},
+		{
+			"id": "fz-437-2020",
+			"type": "fz",
+			"num": "437",
+			"date": "22.12.2020",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_371784",
+			"title": "О федеральной территории 'Сириус'"
+		},
+		{
+			"id": "",
+			"type": "fz",
+			"num": "",
+			"date": "",
+			"link": "",
+			"title": ""
+		},
+		{
+			"id": "",
+			"type": "fz",
+			"num": "",
+			"date": "",
+			"link": "",
+			"title": ""
 		},
 		{
 			"id": "",

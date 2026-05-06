@@ -26,6 +26,11 @@
 			"brief": "ФКЗ"
 		},
 		{
+			"id": "zs",
+			"description": "Закон субъекта РФ",
+			"brief": ""
+		},
+		{
 			"id": "up",
 			"description": "Указ Президента",
 			"brief": "УП"

@@ -1,0 +1,53 @@
+{
+	"themes": [
+		{
+			"id": "status",
+			"parent": "service",
+			"description": "Статус гражданского служащего"
+		}
+	],
+	"connections": [
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		}
+	]
+}
