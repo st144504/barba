@@ -2,6 +2,17 @@
 	"name": "273 от 25.12.2008  О противодействии коррупции",
 	"children": [
  	{
+		"name": "Гос. должности",
+		"children":[
+		{
+			"name": "ст. 12.1: ограничения и обязанности",
+			"cls": "fz-273-2008",
+			"quote": "",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_82959/"
+		}
+		]
+	},
+	{
 		"name": "Представительство",
 		"children":[
 		{

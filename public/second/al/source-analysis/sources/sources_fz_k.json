@@ -29,6 +29,12 @@
 			"type": "fzk",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_176147",
 			"title": "КАС"
+		},
+		{
+			"id": "tk",
+			"type": "fzk",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_3468/",
+			"title": "ТК РФ"
 		}
 	]
 }
