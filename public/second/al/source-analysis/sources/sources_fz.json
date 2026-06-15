@@ -1,12 +1,28 @@
 {
 	"sources": [
 		{
-			"id": "fz414",
+			"id": "fz-342-2011",
+			"type": "fz",
+			"num": "342",
+			"date": "30.11.2011",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_122329/",
+			"title": "О службе в органах внутренних дел РФ"
+		},
+		{
+			"id": "fz-414-2021",
 			"type": "fz",
 			"num": "414",
 			"date": "21.12.2021",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_404070",
-			"title": "Об организации пусбличной власти в субъектах"
+			"title": "Об общих принципах организации публичной власти в субъектах РФ"
+		},
+		{
+			"id": "fz-437-2020",
+			"type": "fz",
+			"num": "437",
+			"date": "22.12.2020",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_371784",
+			"title": "О федеральной территории 'Сириус'"
 		},
 		{
 			"id": "fz248",
@@ -25,60 +41,12 @@
 			"title": "Об обязательных требованиях"
 		},
 		{
-			"id": "fz210",
+			"id": "fz-328-2019",
 			"type": "fz",
-			"num": "210",
-			"date": "27.07.2010",
-			"link": "https://www.consultant.ru/document/cons_doc_LAW_103023/",
-			"title": "Об госуслугах"
-		},
-		{
-			"id": "fz-229-2007",
-			"type": "fz",
-			"num": "229",
-			"date": "02.10.2007",
-			"link": "https://www.consultant.ru/document/cons_doc_LAW_71450/",
-			"title": "Об исполнительном производстве"
-		},
-		{
-			"id": "fz-79-2004",
-			"type": "fz",
-			"num": "79",
-			"date": "27.07.2004",
-			"link": "https://www.consultant.ru/document/cons_doc_LAW_48601/",
-			"title": "О ГГС РФ"
-		},
-		{
-			"id": "fz-273-2008",
-			"type": "fz",
-			"num": "273",
-			"date": "25.12.2008",
-			"link": "https://www.consultant.ru/document/cons_doc_LAW_82959/",
-			"title": "О противодействии коррупции"
-		},
-		{
-			"id": "fz-82-1995",
-			"type": "fz",
-			"num": "82",
-			"date": "19.05.1995",
-			"link": "https://www.consultant.ru/document/cons_doc_LAW_6693/",
-			"title": "Об общественных объединениях"
-		},
-		{
-			"id": "fz-99-2011",
-			"type": "fz",
-			"num": "99",
-			"date": "04.05.2011",
-			"link": "https://www.consultant.ru/document/cons_doc_LAW_113658/",
-			"title": "О лицензировании отдельных видов деятельности"
-		},
-		{
-			"id": "fz-129-2001",
-			"type": "fz",
-			"num": "129",
-			"date": "08.08.2001",
-			"link": "https://www.consultant.ru/document/cons_doc_LAW_32881/",
-			"title": "О гос. регистрации ЮЛ и ИП"
+			"num": "328",
+			"date": "01.10.2019",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_334479",
+			"title": "О службе в органах принудительного исполнения РФ"
 		},
 		{
 			"id": "fz-215-2015",
@@ -89,12 +57,68 @@
 			"title": "О гос. корпорации Роскосмос"
 		},
 		{
+			"id": "fz-63-2011",
+			"type": "fz",
+			"num": "63",
+			"date": "04.05.2011",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_112701/",
+			"title": "Об электронной подписи"
+		},
+		{
+			"id": "fz-99-2011",
+			"type": "fz",
+			"num": "99",
+			"date": "04.05.2011",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_113658/",
+			"title": "О лицензировании отдельных видов деятельности"
+		},
+		{
+			"id": "fz210",
+			"type": "fz",
+			"num": "210",
+			"date": "27.07.2010",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_103023/",
+			"title": "Об госуслугах"
+		},
+		{
+			"id": "fz-273-2008",
+			"type": "fz",
+			"num": "273",
+			"date": "25.12.2008",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_82959/",
+			"title": "О противодействии коррупции"
+		},
+		{
 			"id": "fz-25-2007",
 			"type": "fz",
 			"num": "25",
 			"date": "02.03.2007",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_66530/",
 			"title": "О муниципальной службе в РФ"
+		},
+		{
+			"id": "fz-229-2007",
+			"type": "fz",
+			"num": "229",
+			"date": "02.10.2007",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_71450/",
+			"title": "Об исполнительном производстве"
+		},
+		{
+			"id": "fz-149-2006",
+			"type": "fz",
+			"num": "149",
+			"date": "27.07.20064",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_61798",
+			"title": "Об информации, информационных технологиях и о защите информации"
+		},
+		{
+			"id": "fz-79-2004",
+			"type": "fz",
+			"num": "79",
+			"date": "27.07.2004",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_48601/",
+			"title": "О ГГС РФ"
 		},
 		{
 			"id": "fz-58-2003",
@@ -105,28 +129,12 @@
 			"title": "О системе государственной службы РФ"
 		},
 		{
-			"id": "fz-141-2016",
+			"id": "fz-129-2001",
 			"type": "fz",
-			"num": "141",
-			"date": "23.05.2016",
-			"link": "https://www.consultant.ru/document/cons_doc_LAW_198195/",
-			"title": "О службе в федеральной противопожарной службе Государственной противопожарной службы"
-		},
-		{
-			"id": "fz-328-2019",
-			"type": "fz",
-			"num": "328",
-			"date": "01.10.2019",
-			"link": "https://www.consultant.ru/document/cons_doc_LAW_334479",
-			"title": "О службе в органах принудительного исполнения РФ"
-		},
-		{
-			"id": "fz-342-2011",
-			"type": "fz",
-			"num": "342",
-			"date": "30.11.2011",
-			"link": "https://www.consultant.ru/document/cons_doc_LAW_122329/",
-			"title": "О службе в органах внутренних дел РФ"
+			"num": "129",
+			"date": "08.08.2001",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_32881/",
+			"title": "О гос. регистрации ЮЛ и ИП"
 		},
 		{
 			"id": "fz-114-1997",
@@ -137,20 +145,20 @@
 			"title": "О службе в таможенных органах РФ"
 		},
 		{
-			"id": "fz-414-2021",
+			"id": "fz-82-1995",
 			"type": "fz",
-			"num": "414",
-			"date": "21.12.2021",
-			"link": "https://www.consultant.ru/document/cons_doc_LAW_404070",
-			"title": "Об общих принципах организации публичной власти в субъектах РФ"
+			"num": "82",
+			"date": "19.05.1995",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_6693/",
+			"title": "Об общественных объединениях"
 		},
 		{
-			"id": "fz-437-2020",
+			"id": "fz-141-2016",
 			"type": "fz",
-			"num": "437",
-			"date": "22.12.2020",
-			"link": "https://www.consultant.ru/document/cons_doc_LAW_371784",
-			"title": "О федеральной территории 'Сириус'"
+			"num": "141",
+			"date": "23.05.2016",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_198195/",
+			"title": "О службе в федеральной противопожарной службе Государственной противопожарной службы"
 		},
 		{
 			"id": "",
