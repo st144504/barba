@@ -2,17 +2,6 @@
 	"name": "50  от 25.12.2018  Об оспаривании НПА и разъяснений с нормативными свойствами (21 КАС и 23 АПК)",
 	"children": [
  	{
-		"name": "Судебная практика",
-		"children":[
-		{
-			"name": "[YTBD]: ",
-			"cls": "pvs-50-2018",
-			"quote": "[YTBD]",
-			"link": "https://www.consultant.ru/document/cons_doc_LAW_314764/"
-		}
-		]
-	},
-	{
 		"name": "Виды",
 		"children":[
 		{
@@ -36,6 +25,17 @@
 			"name": ": Оспаривание нормативных актов",
 			"cls": "pvs-50-2018",
 			"quote": "",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_314764/"
+		}
+		]
+	},
+	{
+		"name": "Судебная практика",
+		"children":[
+		{
+			"name": "[YTBD]: ",
+			"cls": "pvs-50-2018",
+			"quote": "[YTBD]",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_314764/"
 		}
 		]
