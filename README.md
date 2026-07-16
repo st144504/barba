@@ -1,6 +1,6 @@
 # 2025/2026 year
 
-on [GitHub Pages](https://st144504.github.io/freshman/)
+on [GitHub Pages](https://st144504.github.io/barba/)
 
 With respect and gratitude, the following third-party resources are used:
  - [Jost font](https://fonts.google.com/specimen/Jost) under [SIL Open Font License](https://fonts.google.com/specimen/Jost/license)
