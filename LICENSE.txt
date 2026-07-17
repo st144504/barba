@@ -1,15 +1,15 @@
 Site Source License
-Version 1.0
-October 2025
+Version 1.1
+July 2026
 
 DEFINITIONS
 For the purposes of this license following definitions must stand:
-1. Site must stand for Freshman site developed by St144504.
+1. Site must stand for Barba site developed by St144504.
 2. Site Sources must stand for either resident or cloned or copied or gained otherwise
    source code, documentation, configuration files, 
    art work (images, styles, fonts, etc) and any other content of the Site,
-   partially or as a whole, except for third-party sources and license agreements.
-3. St144504 must stand for the owner of repository https://github.com/st144504/freshman
+   partially or as a whole, except for third-party sources and third-party license agreements.
+3. St144504 must stand for the owner of the repository https://github.com/st144504/barba
    
 This license defines terms and restrictions for using Site Sources. 
 If you (as an individual or Legal Entity) are not agree, partially or entirely, 
@@ -20,7 +20,7 @@ COPYRIGHT
 Site Sources, including this agreement, are property of St144504. 
 
 GRANTS
-Site Sources are publicly available only for informational, review, analysis 
+Site Sources are publicly available only for informational, review, manual analysis 
 and consulting purposes.
 
 RESTRICTIONS
@@ -29,7 +29,8 @@ Including, but not limited to the following declarations.
  You (as an individual or Legal Entity) 
    (1) may NOT modify, replenish or diminish Site Sources,
    (2) may NOT include Site Sources to any other product or project,
-   (3) may NOT produce other site from or with Site Sources.
+   (3) may NOT produce other site or derivative work of any other kind from or with Site Sources,
+   (4) may NOT use Site Sources for LLM or AI analysis of any purpose and implementation
 
 DISCLAIMER
 For the purposes stated above Site Sources are provided on "as is" basis. 
