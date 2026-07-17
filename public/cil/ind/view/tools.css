@@ -1,0 +1,13 @@
+.flip {
+	transform: scale(-1, 1);
+}
+
+#flip_tool{
+	border-radius: 5px;
+	border: 1px solid lightcoral ;
+	padding: 2px 10px;
+	cursor: pointer;
+	text-align: center;
+	font-family: monospace;
+	color: firebrick;
+}
