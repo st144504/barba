@@ -188,11 +188,11 @@ function _Tree(d3) {
     )
 }
 
-export default function define(runtime, observer) {
+export default function define(prefix, runtime, observer) {
     const main = runtime.module();
     function toString() { return this.url; }
     const fileAttachments = new Map([
-        ["flare.json", { url: new URL("./files/gen/net.json", import.meta.url), mimeType: "application/json", toString }]
+        ["flare.json", { url: new URL("/public/" + prefix+"/ind/view/files/net.json", import.meta.url), mimeType: "application/json", toString }]
     ]);
     main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
     main.variable(observer()).define(["md"], _1);

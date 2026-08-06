@@ -3244,13 +3244,13 @@ Object.defineProperties(Runtime.prototype, {
         configurable: !0,
     },
     module: {
-        value: function(e, t = Jn) {
+        value: function(p, e, t = Jn) {
             let n;
             if (void 0 === e) return (n = this._init) ? ((this._init = null), n) : new Module(this);
             if (((n = this._modules.get(e)), n)) return n;
             (this._init = n = new Module(this)), this._modules.set(e, n);
             try {
-                e(this, t);
+                e(p, this, t);
             } finally {
                 this._init = null;
             }
