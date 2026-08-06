@@ -4,8 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="icon" href="/public/assets/images/books16.png">
-	<link rel="stylesheet" type="text/css" href="./inspector.css">
-	<link rel="stylesheet" type="text/css" href="./tools.css">
+	<link rel="stylesheet" type="text/css" href="/public/assets/ind/infr/inspector.css">
+	<link rel="stylesheet" type="text/css" href="/public/assets/ind/infr//tools.css">
 	<title>АП | Исходники</title>
 </head>
 
@@ -17,11 +17,11 @@
 	</div>
 	<script type="module">
 
-		import define from "./index.js";
-		import {Runtime, Library, Inspector} from "./runtime.js";
+		import define from "/public/assets/ind/infr/index.js";
+		import {Runtime, Library, Inspector} from "/public/assets/ind/infr/runtime.js";
 
 		const runtime = new Runtime();
-		const main = runtime.module(define, Inspector.into(document.body));
+		const main = runtime.module("cil", define, Inspector.into(document.body));
 	</script>
 	<script lang="javascript">
 		document.getElementById("flip_tool").onclick = toggleFlip;
