@@ -132,17 +132,25 @@ ul li:before {
 	border-color: var(--color-purple);
 }
 
-.law-and-state, .sub-a {
+.admin-law, .sub-c {
 	border-color: var(--color-red);
 }
-
-.constitutional-law, .sub-b {
+.law-and-state, .sub-a {
 	border-color: var(--color-gold);
 }
 
-.lea, .sub-c {
+.civil-law, .sub-b {
+	border-color: var(--color-green);
+}
+
+.criminal-law, .sub-c {
 	border-color: var(--color-blue);
 }
+
+.latin, .sub-c {
+	border-color: var(--color-green-light);
+}
+
 
 .sub-d {
 	border-color: var(--color-green);

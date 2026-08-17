@@ -1,0 +1,45 @@
+{
+	"themes": [
+		{
+			"id": "construction",
+			"description": "Образование ЮЛ"
+		}
+	],
+	"connections": [
+		{
+			"source": "fz-129-2001",
+			"theme": "construction",
+			"location": "пп. г) п. 1 ст. 5",
+			"details": "Создается решением учредителей или ообразуется в результате реорганизации",
+			"quote":"В ЕГРЮЛ содержатся следующие сведения о ЮЛ:<br/>...<br/>г) способ образования юридического лица (создание или реорганизация);"
+		},
+		{
+			"source": "gk",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "gk",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "gk",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "gk",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		}
+	]
+}
