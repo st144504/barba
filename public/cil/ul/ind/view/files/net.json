@@ -338,6 +338,19 @@
 		]
 	},
 	{
+		"name": "Правовой статус",
+		"children":[
+		{
+			"name": "ППВС О применении ч. 1 ГК /  ",
+			"title": "Постановление Пленума BС РФ О применении ч. 1 ГК /  ",
+			"cls": "pvs-25-2015",
+			"details": "",
+			"quote": "",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_181602/"
+		}
+		]
+	},
+	{
 		"name": "Образование ЮЛ",
 		"children":[
 		{

@@ -1,0 +1,45 @@
+{
+	"themes": [
+		{
+			"id": "juridical_status",
+			"description": "Правовой статус"
+		}
+	],
+	"connections": [
+		{
+			"source": "pvs-25-2015",
+			"theme": "juridical_status",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "gk",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "gk",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "gk",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "gk",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		}
+	]
+}

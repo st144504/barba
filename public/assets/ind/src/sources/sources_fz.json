@@ -1,0 +1,204 @@
+{
+	"sources": [
+		{
+			"id": "fz-82-1995",
+			"type": "fz",
+			"num": "82",
+			"date": "19.05.1995",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_6693/",
+			"title": "Об общественных объединениях"
+		},
+		{
+			"id": "fz-7-1996",
+			"type": "fz",
+			"num": "7",
+			"date": "12.01.1996",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_8824/",
+			"title": "Об НКО"
+		},
+		{
+			"id": "fz-114-1997",
+			"type": "fz",
+			"num": "114",
+			"date": "21.07.1997",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_15264/",
+			"title": "О службе в таможенных органах РФ"
+		},
+		{
+			"id": "fz-129-2001",
+			"type": "fz",
+			"num": "129",
+			"date": "08.08.2001",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_32881/",
+			"title": "О гос. регистрации ЮЛ и ИП"
+		},
+		{
+			"id": "fz-63-2002",
+			"type": "fz",
+			"num": "63",
+			"date": "31.05.2002",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_36945/",
+			"title": "Об адвокатской деятельности"
+		},
+		{
+			"id": "fz-127-2002",
+			"type": "fz",
+			"num": "127",
+			"date": "26.10.2002",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+			"title": "О банкротстве"
+		},
+		{
+			"id": "fz-58-2003",
+			"type": "fz",
+			"num": "58",
+			"date": "27.05.2003",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_42413/",
+			"title": "О системе государственной службы РФ"
+		},
+		{
+			"id": "fz-79-2004",
+			"type": "fz",
+			"num": "79",
+			"date": "27.07.2004",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_48601/",
+			"title": "О ГГС РФ"
+		},
+		{
+			"id": "fz-149-2006",
+			"type": "fz",
+			"num": "149",
+			"date": "27.07.2006",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_61798",
+			"title": "Об информации, информационных технологиях и о защите информации"
+		},
+		{
+			"id": "fz-25-2007",
+			"type": "fz",
+			"num": "25",
+			"date": "02.03.2007",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_66530/",
+			"title": "О муниципальной службе в РФ"
+		},
+		{
+			"id": "fz-229-2007",
+			"type": "fz",
+			"num": "229",
+			"date": "02.10.2007",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_71450/",
+			"title": "Об исполнительном производстве"
+		},
+		{
+			"id": "fz-315-2007",
+			"type": "fz",
+			"num": "315",
+			"date": "01.12.2007",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_72967/",
+			"title": "Об СРО"
+		},
+		{
+			"id": "fz-273-2008",
+			"type": "fz",
+			"num": "273",
+			"date": "25.12.2008",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_82959/",
+			"title": "О противодействии коррупции"
+		},
+		{
+			"id": "fz-307-2008",
+			"type": "fz",
+			"num": "307",
+			"date": "30.12.2008",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_83311/",
+			"title": "Об аудиторской деятельности"
+		},
+		{
+			"id": "fz210",
+			"type": "fz",
+			"num": "210",
+			"date": "27.07.2010",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_103023/",
+			"title": "Об госуслугах"
+		},
+		{
+			"id": "fz-63-2011",
+			"type": "fz",
+			"num": "63",
+			"date": "04.05.2011",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_112701/",
+			"title": "Об электронной подписи"
+		},
+		{
+			"id": "fz-99-2011",
+			"type": "fz",
+			"num": "99",
+			"date": "04.05.2011",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_113658/",
+			"title": "О лицензировании отдельных видов деятельности"
+		},
+		{
+			"id": "fz-342-2011",
+			"type": "fz",
+			"num": "342",
+			"date": "30.11.2011",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_122329/",
+			"title": "О службе в органах внутренних дел РФ"
+		},
+		{
+			"id": "fz-215-2015",
+			"type": "fz",
+			"num": "215",
+			"date": "13.07.2015",
+			"link": "https://base.garant.ru/71127782/",
+			"title": "О гос. корпорации Роскосмос"
+		},
+		{
+			"id": "fz-141-2016",
+			"type": "fz",
+			"num": "141",
+			"date": "23.05.2016",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_198195/",
+			"title": "О службе в федеральной противопожарной службе Государственной противопожарной службы"
+		},
+		{
+			"id": "fz-328-2019",
+			"type": "fz",
+			"num": "328",
+			"date": "01.10.2019",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_334479",
+			"title": "О службе в органах принудительного исполнения РФ"
+		},
+		{
+			"id": "fz247",
+			"type": "fz",
+			"num": "247",
+			"date": "31.07.2020",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_358670/",
+			"title": "Об обязательных требованиях"
+		},
+		{
+			"id": "fz248",
+			"type": "fz",
+			"num": "248",
+			"date": "31.07.2020",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_358750/",
+			"title": "О госконтроле"
+		},
+		{
+			"id": "fz-437-2020",
+			"type": "fz",
+			"num": "437",
+			"date": "22.12.2020",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_371784",
+			"title": "О федеральной территории 'Сириус'"
+		},
+		{
+			"id": "fz-414-2021",
+			"type": "fz",
+			"num": "414",
+			"date": "21.12.2021",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_404070",
+			"title": "Об общих принципах организации публичной власти в субъектах РФ"
+		}
+	]
+}
