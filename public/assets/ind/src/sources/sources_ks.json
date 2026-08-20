@@ -1,6 +1,14 @@
 {
 	"sources": [
 		{
+			"id": "pks-11-1996",
+			"type": "pks",
+			"num": "11-П",
+			"date": "30.04.1996",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_10305/ca1820d99f2c758e82d835816b28c0a34417dc33/",
+			"title": "Пределы восполтинельного нормотворчества Президента"
+		},
+		{
 			"id": "oks-1620-2010",
 			"type": "oks",
 			"num": "1620-О-О",
