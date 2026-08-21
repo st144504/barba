@@ -151,6 +151,17 @@ ul li:before {
 	border-color: var(--color-green-light);
 }
 
+.const-law, .sub-c {
+	border-color: var(--color-green-dark);
+}
+
+.branches, .sub-c {
+	border-color: var(--color-slight);
+}
+
+.default, .sub-c {
+	border-color: var(--color-pink);
+}
 
 .sub-d {
 	border-color: var(--color-green);
