@@ -81,6 +81,11 @@
 			"brief": "ППр РФ"
 		},
 		{
+			"id": "pecohr",
+			"description": "Постановление ЕСПЧ",
+			"brief": "П ЕСПЧ"
+		},
+		{
 			"id": "var",
 			"description": "Другие источники",
 			"brief": ""

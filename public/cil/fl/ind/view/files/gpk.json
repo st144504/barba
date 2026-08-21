@@ -1,0 +1,16 @@
+{
+	"name": " ГПК РФ",
+	"children": [
+ 	{
+		"name": "Обычай",
+		"children":[
+		{
+			"name": "ст. 56: Доказать существование обычая должна сторона, которая на него ссылается",
+			"cls": "gpk",
+			"quote": "",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_39570"
+		}
+		]
+	}
+	]
+}
