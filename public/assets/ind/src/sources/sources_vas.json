@@ -1,6 +1,15 @@
 {
 	"sources": [
 		{
+			"id": "ippvas-126-2008",
+			"type": "ippvas",
+			"num": "126",
+			"date": "13.11.2008",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_82613/",
+			"title": "Обзор судебной практики: истребованием имущества из чужого незаконного владения",
+			"status": "FUTURE:DEALS"
+		},
+		{
 			"id": "ppvas-61-2013",
 			"type": "ppvas",
 			"num": "61",

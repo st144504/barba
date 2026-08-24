@@ -48,6 +48,15 @@
 			"title": "По делу фонда 'Подари жизнь'"
 		},
 		{
+			"id": "pvs-49-2018",
+			"type": "ppvs",
+			"num": "49 ",
+			"date": "25.12.2018",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_314779/",
+			"title": "О заключении и толковании договора",
+			"status": "FUTURE:DEALS"
+		},
+		{
 			"id": "pvs-50-2018",
 			"type": "ppvs",
 			"num": "50 ",
