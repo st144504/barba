@@ -1,20 +1,20 @@
 {
 	"sources": [
 		{
+			"id": "zrf-1541-1991",
+			"type": "zrf",
+			"num": "1541-1",
+			"date": "04.07.1991",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_100/",
+			"title": "О приватизации жилищного фонда в РФ"
+		},
+		{
 			"id": "zrf-2395-1-1992",
 			"type": "zrf",
 			"num": "2395-1",
 			"date": "21.02.1992",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_343/",
 			"title": "О Недрах"
-		},
-		{
-			"id": "zrf-",
-			"type": "zrf",
-			"num": "",
-			"date": "",
-			"link": "",
-			"title": ""
 		}
 	]
 }
