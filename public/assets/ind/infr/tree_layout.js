@@ -3,8 +3,8 @@ function _1(md) {
 		  md`### ну такое
  `
 	 )*/
-	 
-	 return (md``);
+
+	return (md``);
 }
 
 function _chart(Tree, flare) {
@@ -30,8 +30,7 @@ function _link(data, node) {
 }
 
 function _title(data, node) {
-	var ti = node.data.title ? node.data.title : "";
-	return ti;
+	return node.data.title ? node.data.title : "";
 }
 
 function _cls(data, node) {
@@ -85,7 +84,7 @@ function _Tree(d3) {
 
 			// Compute the layout.
 			const dx = 16;
-			const dy = width / (2 * (root.height + padding));
+			const dy = width / (2 * (root.height + padding)) + 70;
 			tree().nodeSize([dx, dy])(root);
 
 			// Center the tree.
@@ -169,19 +168,27 @@ function _Tree(d3) {
 			}
 			function _showExplanation(event, d) {
 				let quote = d.data.quote;
-				if (quote == undefined) {
+				let details = d.data.details;
+				if (quote == undefined || details == undefined) {
 					return;
 				}
 				let tooltip = document.getElementById("explanation");
 				tooltip.style.left = event.offsetX + 20 + 'px';
 				tooltip.style.top = event.offsetY + 20 + 'px';
 				tooltip.style.display = "block";
-				document.getElementById("explanation_quote").innerHTML = quote;
-				if (d.data.details != undefined) {
-					document.getElementById("explanation_details").innerHTML = d.data.details;
-				}
-
+				installText("explanation_title", d.data.name);
+				installText("explanation_quote", quote);
+				installText("explanation_details", details);
 			}
+
+			function installText(id, text) {
+				let element = document.getElementById(id);
+				if (element == undefined) {
+					return;
+				}
+				element.innerHTML = text == undefined ? '' : text;
+			}
+
 			function _hideExplanation(event, d) {
 				document.getElementById("explanation").style.display = "none";
 			}

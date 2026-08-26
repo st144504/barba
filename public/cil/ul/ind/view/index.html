@@ -10,38 +10,17 @@
 </head>
 
 <body class="flippable">
-	<div id="flip_tool" title="it's just to grow even weirder">Train your brain</div>
 	<div id="explanation" class="tooltip">
-		<div id="explanation_details" class="details"></div>
-		<div id="explanation_quote" class="explanation"></div>
-	</div>
-	<script type="module">
-
-		import define from "/public/assets/ind/infr/index.js";
-		import {Runtime, Library, Inspector} from "/public/assets/ind/infr/runtime.js";
-
-		const runtime = new Runtime();
-		const main = runtime.module("cil/ul", define, Inspector.into(document.body));
-	</script>
-	<script lang="javascript">
-		document.getElementById("flip_tool").onclick = toggleFlip;
-		
-		function toggleFlip() {
-			let tool = document.getElementById("flip_tool");
-			let cls = "flip";
-			for (let target of document.getElementsByClassName("flippable")) {
-				if (target.classList.contains(cls)) {
-					target.classList.remove(cls);
-					tool.innerHTML = "Train your brain";
-					tool.title="it's just to grow even weirder"
-				} else {
-					tool.innerHTML = "Rest your brain";
-					tool.title="it is weird enough as it is, thank you very much"
-					target.classList.add(cls);
-				}
-			}
-		}
-	</script>
+			<div id="explanation_title" class="title"></div>
+			<div id="explanation_details" class="details"></div>
+			<div id="explanation_quote" class="explanation"></div>
+		</div>
+		<script type="module">
+			import define from "/public/assets/ind/infr/index.js";
+			import {Runtime, Library, Inspector} from "/public/assets/ind/infr/runtime.js";
+			const runtime = new Runtime();
+			const main = runtime.module("cil/ul", define, Inspector.into(document.body));
+		</script>
 </body>
 
 </html>

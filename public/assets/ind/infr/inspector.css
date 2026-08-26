@@ -114,14 +114,21 @@
 	font-size: 14px;
 }
 
-.details {
+.tooltip .details {
 	padding: 3px 3px 10px 3px;
 }
 
-.explanation {
+.tooltip .explanation {
 	font-style: italic;
 	padding-left: 10px;
 	margin-left: 10px;
 	border-left: 1px solid darkgray;
 }
 
+.tooltip .title {
+	padding-bottom: 10px;
+	text-decoration: underline;
+	color: rgb(0, 64, 128);
+	font-weight: bold;
+	;
+}
