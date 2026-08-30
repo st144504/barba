@@ -103,7 +103,7 @@ it:before {
 	width: 250px;
 	margin: 2px;
 	padding: 2px;
-	border: 1px solid var(--color-slight);
+	border: 1px solid var(--color-blue-8);
 	border-radius: 5px;
 }
 
@@ -144,7 +144,7 @@ it:before {
 	visibility: hidden;
 	width: 250px;
 	word-wrap: normal;
-	background-color: var(--color-slight);
+	background-color: var(--color-blue-8);
 	border: 1px solid var(--color-black);
 	color: var(--color-black);
 	text-align: left;
@@ -170,7 +170,7 @@ it:before {
 }
 
 .emph {
-	background-color: var(--color-light);
+	background-color: var(--color-blue-7);
 }
 
 .q {

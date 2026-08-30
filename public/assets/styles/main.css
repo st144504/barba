@@ -20,20 +20,82 @@
 @charset "UTF-8";
 
 :root {
-	--color-black: #071013;
+
 	--color-red: #D11149;
-	--color-gold: #F39237;
-	--color-blue: #477890;
-	--color-light: #B0D0D3;
-	--color-slight: #CBEEF3;
+	--color-red-1: #E63462;
+	--color-red-2: #FF3864;
+	--color-red-3: #8E3B46;
+	--color-red-4: #E0777D;
+	--color-red-5: #82204A;
+	--color-red-6: #B0413E;
+	--color-red-7: #EE6055;
+	--color-red-8: #FF9B85;
+	--color-red-9: #DB5461;
+	--color-red-10: #E3655B;
+	--color-red-11: #FF1B1C;
+
+	--color-gold: #F2C14E;
+	--color-gold-1: #FDE74C;
+	--color-gold-2: #F4E285;
+	--color-gold-3: #F4A259;
+	--color-gold-4: #FF7F11;
+	--color-gold-5: #F4E87C;
+	--color-gold-6: #F39C6B;
+	--color-gold-7: #F7B32B;
+	--color-gold-8: #FFD97D;
+	--color-gold-9: #FEFCAD;
+	--color-gold-10: #FDE74C;
+	--color-gold-11: #FF7F11;
+	--color-gold-12: #F0C808;
+
+
+	--color-blue: #0ACDFF;
+	--color-blue-1: #064789;
+	--color-blue-2: #0C0A3E;
+	--color-blue-3: #054A91;
+	--color-blue-4: #465775;
+	--color-blue-5: #726DA8;
+	--color-blue-6: #7D8CC4;
+	--color-blue-7: #A0D2DB;
+	--color-blue-8: #CBEEF3;
+	--color-blue-9: #75DBCD;
+	--color-blue-10: #00A5CF;
+	--color-blue-11: #79ADDC;
+	--color-blue-12: #261447;
+	--color-blue-13: #A7ACD9;
+	--color-blue-14: #9E8FB2;
+	--color-blue-15: #0B3948;
+	--color-blue-16: #416165;
+	--color-blue-17: #5171A5;
+
 	--color-green: #09BC8A;
-	--color-green-light: #90A583;
-	--color-green-dark: #093824;
-	--color-purple: #36213E;
+	--color-green-1: #5FAD56;
+	--color-green-2: #4D9078;
+	--color-green-3: #8CB369;
+	--color-green-4: #679436;
+	--color-green-5: #A5BE00;
+	--color-green-6: #CDE77F;
+	--color-green-7: #709176;
+	--color-green-8: #56E39F;
+	--color-green-9: #59C9A5;
+	--color-green-10: #5B6C5D;
+	--color-green-11: #4A7C59;
+	--color-green-12: #C9DBBA;
+	--color-green-12: #636940;
+	--color-green-13: #474A2C;
+
+	--color-brown: #2C0703;
+	--color-brown-1: #79745C;
+	--color-brown-2: #584D3D;
+	--color-brown-3: #CC978E;
+
+	--color-black: #071013;
+	--color-dark-gray: #313638;
+	--color-gray: #50514F;
+	--color-gray-1: #4C5B5C;
+
 	--color-ivory: #FFFFEA;
 	--color-pink: #FFDDE2;
-	--color-brown: #2D1115;
-	--color-green-slight: rgb(237, 254, 250);
 
 }
 
@@ -52,8 +114,8 @@ body {
 }
 
 .ytbd {
-	background-color: var(--color-light);
-	color: black;
+	background-color: var(--color-blue-7);
+	color: var(--color-black);
 	font-style: italic;
 }
 

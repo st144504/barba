@@ -50,7 +50,7 @@ table.a-doc tr td:not(.chapter) {
 }
 
 table.a-doc tr td:last-child {
-	color: var(--color-purple);
+	color: var(--color-blue-5);
 	font-weight: 600;
 	width: 40%;
 	font-size: 100%;
@@ -65,5 +65,5 @@ ol {
 
 
 .a-2020 {
-	background-color: var(--color-green-slight);
+	background-color: var(--color-blue-8);
 }

@@ -34,7 +34,7 @@
 }
 
 .block {
-	border: 1px solid var(--color-light);
+	border: 1px solid var(--color-blue-7);
 	border-radius: 5px;
 	margin: 5px 0;
 	padding: 0 5px;
@@ -63,7 +63,7 @@
 th {
 	padding: 5px;
 	border-radius: 3px;
-	border: 1px var(--color-light) solid;
+	border: 1px var(--color-blue-7) solid;
 }
 
 .definition {
@@ -189,12 +189,12 @@ th {
 .refs {
 	display: block;
 	font-size: 0.8rem;
-	color: var(--color-light);
+	color: var(--color-blue-7);
 	width: 70%;
 	margin-right: 0;
 	margin-left: auto;
 	margin-top: 15px;
-	border-top: 1px var(--color-light) solid;
+	border-top: 1px var(--color-blue-7) solid;
 }
 
 .refs .ref {
@@ -229,7 +229,7 @@ th {
 .quote {
 	display: block;
 	padding-left: 10px;
-	border-left: 1px var(--color-light) solid;
+	border-left: 1px var(--color-blue-7) solid;
 	margin: 5px;
 }
 
@@ -238,11 +238,11 @@ th {
 }
 
 .emphasis {
-	background-color: var(--color-light);
+	background-color: var(--color-blue-7);
 }
 
 emph {
-	background-color: var(--color-light);
+	background-color: var(--color-blue-7);
 }
 
 .question {

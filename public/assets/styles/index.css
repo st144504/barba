@@ -27,7 +27,7 @@
 }
 
 a {
-	color: var(--color-blue);
+	color: var(--color-blue-1);
 	text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ ul li:before {
 	padding: 10px;
 	display: inline-block;
 	text-align: center;
-	color: var(--color-green-dark);
+	color: var(--color-green-13);
 	border-top: 10px solid;
 	border-bottom: 10px solid;
 	border-left-width: 0;
@@ -129,7 +129,7 @@ ul li:before {
 }
 
 .home {
-	border-color: var(--color-purple);
+	border-color: var(--color-blue-5);
 }
 
 .admin-law, .sub-c {
@@ -144,19 +144,25 @@ ul li:before {
 }
 
 .criminal-law, .sub-c {
-	border-color: var(--color-blue);
+	border-color: var(--color-blue-1);
 }
 
 .latin, .sub-c {
-	border-color: var(--color-green-light);
+	border-color: var(--color-green-1);
+}
+.fin-law, .sub-c {
+	border-color: var(--color-red);
+}
+.ip-law, .sub-c {
+	border-color: var(--color-gold-2);
 }
 
 .const-law, .sub-c {
-	border-color: var(--color-green-dark);
+	border-color: var(--color-green-3);
 }
 
 .branches, .sub-c {
-	border-color: var(--color-slight);
+	border-color: var(--color-blue-2);
 }
 
 .default, .sub-c {
@@ -164,12 +170,12 @@ ul li:before {
 }
 
 .sub-d {
-	border-color: var(--color-green);
+	border-color: var(--color-green-4);
 }
 
 .footer a:after {
 	content: none;
-	color: var(--color-green-light);
+	color: var(--color-green-9);
 }
 
 .legal {
@@ -180,7 +186,7 @@ ul li:before {
 
 .references {
 	margin: 20px 0;
-	border-top: 1px solid var(--color-light);
+	border-top: 1px solid var(--color-blue-7);
 	padding-top: 10px;
 	font-size: 10px;
 	font-size: 10px;
