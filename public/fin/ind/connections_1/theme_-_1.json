@@ -1,0 +1,22 @@
+{
+	"themes": [
+		{
+			"id": "parent",
+			"description": "Description"
+		},
+		{
+			"id": "child",
+			"parent": "parent",
+			"description": "Child description"
+		}
+	],
+	"connections": [
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		}
+	]
+}
