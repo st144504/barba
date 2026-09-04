@@ -1,0 +1,22 @@
+{
+	"themes": [
+		{
+			"id": "rights_in_rem",
+			"description": "Вещные права"
+		},
+		{
+			"id": "child",
+			"parent": "parent",
+			"description": "Child description"
+		}
+	],
+	"connections": [
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		}
+	]
+}
