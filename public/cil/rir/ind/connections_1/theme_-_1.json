@@ -1,8 +1,8 @@
 {
 	"themes": [
 		{
-			"id": "rights_in_rem",
-			"description": "Вещные права"
+			"id": "rights_in_rem_general",
+			"description": "Общие положения"
 		},
 		{
 			"id": "child",
