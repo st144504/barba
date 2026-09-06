@@ -28,6 +28,11 @@
 			"id": "gp_succession_u",
 			"parent": "gp_succession",
 			"description": "Универсальное"
+		},
+		{
+			"id": "gp_succession_s",
+			"parent": "gp_succession",
+			"description": "Сингулярное"
 		}
 	],
 	"connections": [

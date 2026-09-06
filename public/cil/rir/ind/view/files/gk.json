@@ -1,0 +1,16 @@
+{
+	"name": " ГК РФ",
+	"children": [
+ 	{
+		"name": "Риски и ответственность",
+		"children":[
+		{
+			"name": "ст. 210: ",
+			"cls": "gk",
+			"quote": "Собственник несет бремя содержания принадлежащего ему имущества",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+		}
+		]
+	}
+	]
+}

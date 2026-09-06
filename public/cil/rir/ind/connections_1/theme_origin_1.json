@@ -1,0 +1,67 @@
+{
+	"themes": [
+		{
+			"id": "rights_in_rem_origin",
+			"description": "Возникновение права собственности"
+		},
+		{
+			"id": "rights_in_rem_origin_1",
+			"parent": "rights_in_rem_origin",
+			"description": "Оригинарное"
+		},
+		{
+			"id": "rights_in_rem_origin_2",
+			"parent": "rights_in_rem_origin",
+			"description": "Производное"
+		},
+		{
+			"id": "rights_in_rem_create",
+			"parent": "rights_in_rem_origin_1",
+			"description": "Создание"
+		},
+		{
+			"id": "rights_in_rem_find",
+			"parent": "rights_in_rem_origin_1",
+			"description": "Находка"
+		},
+		{
+			"id": "rights_in_rem_fetch",
+			"parent": "rights_in_rem_origin_1",
+			"description": "Сбор"
+		},
+		{
+			"id": "rights_in_rem_acquire",
+			"parent": "rights_in_rem_origin_1",
+			"description": "Добросовестное приобренение"
+		},
+		{
+			"id": "rights_in_rem_universal",
+			"parent": "rights_in_rem_origin_2",
+			"description": "Универсальное"
+		},
+		{
+			"id": "rights_in_rem_universal_1",
+			"parent": "rights_in_rem_universal",
+			"description": "Наследование"
+		},
+		{
+			"id": "rights_in_rem_universal_2",
+			"parent": "rights_in_rem_universal",
+			"description": "Реогранизация ЮЛ"
+		},
+		{
+			"id": "rights_in_rem_sg",
+			"parent": "rights_in_rem_origin_2",
+			"description": "Сингулярное"
+		}
+	],
+	"connections": [
+		{
+			"source": "",
+			"theme": "",
+			"location": "",
+			"details": "",
+			"quote": ""
+		}
+	]
+}
