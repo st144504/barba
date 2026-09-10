@@ -1,0 +1,28 @@
+{
+	"name": " EPL/DCFR",
+	"children": [
+ 	{
+		"name": "Оригинарное/производное/служкбное",
+		"children":[
+		{
+			"name": "VIII.-1:206: Оригинарное: владение как своим",
+			"cls": "var-dcfr",
+			"quote": "An 'owner-possessor' is a person who exercises direct or indirect physical control over the goods with the intention of doing so as, or as if, an owner.",
+			"link": "https://meganorm.ru/mega_doc/dop1/56/grazhdanskoe_pravo_v_2_t_uchebnik_tom_2_3-e_izdanie/4/modelnye_pravila_evropeyskogo_chastnogo_prava_perevod_s.html"
+		},
+		{
+			"name": "VIII.-1:207: Производное: основано на правоотношениях другим владельцем (т.е. не как своим), но осуществляется в своем интересе",
+			"cls": "var-dcfr",
+			"quote": "",
+			"link": "https://meganorm.ru/mega_doc/dop1/56/grazhdanskoe_pravo_v_2_t_uchebnik_tom_2_3-e_izdanie/4/modelnye_pravila_evropeyskogo_chastnogo_prava_perevod_s.html"
+		},
+		{
+			"name": "VIII.-1:208: Агент во владении: владение не как своим, не в своем интересе",
+			"cls": "var-dcfr",
+			"quote": "Под агентом во владении понимается лицо, которое осуществляет непосредственный физический контроль над вещами без специального титула от имени либо оригинарного, либо производного владельца и которому оригинарный либо производный владелец вправе давать обязательные указания по поводу использования этих вещей в их интересах",
+			"link": "https://meganorm.ru/mega_doc/dop1/56/grazhdanskoe_pravo_v_2_t_uchebnik_tom_2_3-e_izdanie/4/modelnye_pravila_evropeyskogo_chastnogo_prava_perevod_s.html"
+		}
+		]
+	}
+	]
+}

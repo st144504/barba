@@ -1,0 +1,14 @@
+{
+	"sources": [
+		{
+			"id": "fz-127-2002",
+			"type": "fz",
+			"num": "127",
+			"date": "26.10.2002",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_39331/",
+			"title": "О банкротстве",
+			
+			"todo":"REMOVE infavour of 'assets'-assisted reference "
+		}
+	]
+}
