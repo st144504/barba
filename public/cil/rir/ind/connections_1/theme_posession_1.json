@@ -23,6 +23,23 @@
 			"id": "rights_in_rem_posession_original",
 			"parent": "rights_in_rem_posession",
 			"description": "Оригинарное/производное/служкбное"
+		},
+		{
+			"id": "rights_in_rem_posession_fr",
+			"parent": "rights_in_rem_posession",
+			"description": "Факт/Право"
+		},
+		{
+			"id": "rights_in_rem_posession_f",
+			"parent": "rights_in_rem_posession_fr",
+			"description": "Субъективная теория (Савиньи, Д.И. Мейер)",
+			"explanation": "Владение - факт,  фактическое отношение лица к вещи, состоит из <br>- <b>Corpus possessionis</b> (фактическое обладание, физическое господство) и <br>- <b>Animus possessionis</b> (отношение как к своей, непризнание ничьей власти)"
+		},
+		{
+			"id": "rights_in_rem_posession_r",
+			"parent": "rights_in_rem_posession_fr",
+			"description": "Объективная теория (Иеринга)",
+			"explanation": "Владение - право, часть права собственности. "
 		}
 	],
 	"connections": [

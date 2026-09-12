@@ -130,8 +130,8 @@ function _Tree(d3) {
 				.attr("xlink:href", link == null ? null : d => link(d.data, d))
 				.attr("target", link == null ? null : linkTarget)
 				.attr("transform", d => `translate(${d.y},${d.x})`)
-				.on("mouseover", _overed)
 				.attr("class", d => cls(d.data, d))
+				.on("mouseover", _overed)
 				.on("mouseout", _outed);
 
 			node.append("circle")
@@ -153,10 +153,15 @@ function _Tree(d3) {
 				.text((d, i) => L[i]);
 
 			function _overed(event, d) {
+				console.log("over", d);
 				var cls = d3.select(this).attr("class");
-				d3.selectAll('.' + cls).attr("fill", "Tomato");
-				d3.select(this).attr("font-weight", "bold")//
-					.attr("fill", "FireBrick");
+				if (cls != "") {
+					d3.selectAll('.' + cls)//
+						.attr("fill", "Tomato");
+					d3.select(this)//
+						.attr("font-weight", "bold")
+						.attr("fill", "FireBrick");
+				}
 				_showExplanation(event, d);
 			}
 			function _outed(event, d) {
@@ -169,7 +174,7 @@ function _Tree(d3) {
 			function _showExplanation(event, d) {
 				let quote = d.data.quote;
 				let details = d.data.details;
-				if (quote == undefined || details == undefined) {
+				if (quote == undefined && details == undefined) {
 					return;
 				}
 				let tooltip = document.getElementById("explanation");
@@ -177,8 +182,12 @@ function _Tree(d3) {
 				tooltip.style.top = event.offsetY + 20 + 'px';
 				tooltip.style.display = "block";
 				installText("explanation_title", d.data.name);
-				installText("explanation_quote", quote);
-				installText("explanation_details", details);
+				if (quote != undefined) {
+					installText("explanation_quote", quote);
+				}
+				if (details != undefined) {
+					installText("explanation_details", details);
+				}
 			}
 
 			function installText(id, text) {

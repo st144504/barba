@@ -1,0 +1,33 @@
+{
+	"themes": [
+		{
+			"id": "pip_evolution",
+			"description": "Развитие МПП"
+		},
+		{
+			"id": "pip_evolution_1",
+			"parent": "pip_evolution",
+			"description": "Обычаи и договоренности",
+			"explanation": "Полсы др. Греции"
+		}		,
+				{
+					"id": "pip_evolution_1",
+					"parent": "pip_evolution",
+					"description": "Обычаи и договоренности",
+					"explanation": "Полсы др. Греции"
+				}
+	],
+	"connections": [
+		{
+			"source": "",
+			"theme": "child",
+			"location": "",
+			"details": "",
+			"quote": "",
+			"traits": [
+				"selector1",
+				"selector2"
+			]
+		}
+	]
+}
