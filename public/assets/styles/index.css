@@ -153,6 +153,9 @@ ul li:before {
 .fin-law, .sub-c {
 	border-color: var(--color-red);
 }
+.i-law, .sub-c {
+	border-color: var(--color-red-2);
+}
 .ip-law, .sub-c {
 	border-color: var(--color-gold-2);
 }
