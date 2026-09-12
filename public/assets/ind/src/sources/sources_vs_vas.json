@@ -1,6 +1,14 @@
 {
 	"sources": [
 		{
+			"id": "pvsvas-6-8-1996",
+			"type": "pvsvas",
+			"num": "10/22",
+			"date": "01.07.1996",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_11279/",
+			"title": "Применение I части ГК"
+		},
+		{
 			"id": "pvsvas-10-22-2010",
 			"type": "pvsvas",
 			"num": "10/22",

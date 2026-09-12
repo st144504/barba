@@ -37,12 +37,12 @@
 		{
 			"id": "rights_in_rem_universal",
 			"parent": "rights_in_rem_origin_2",
-			"description": "Универсальное"
+			"description": "Универсальное правопреемство"
 		},
 		{
 			"id": "rights_in_rem_universal_1",
 			"parent": "rights_in_rem_universal",
-			"description": "Наследование"
+			"description": "Наследование правопреемство"
 		},
 		{
 			"id": "rights_in_rem_universal_2",
