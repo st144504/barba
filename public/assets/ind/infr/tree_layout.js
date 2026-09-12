@@ -168,7 +168,9 @@ function _Tree(d3) {
 				d3.select(this).attr("font-weight", null)
 					.attr("fill", null);
 				var cls = d3.select(this).attr("class");
-				d3.selectAll('.' + cls).attr("fill", null);
+				if (cls != "") {
+					d3.selectAll('.' + cls).attr("fill", null);
+				}
 				_hideExplanation(event, d);
 			}
 			function _showExplanation(event, d) {
@@ -177,17 +179,18 @@ function _Tree(d3) {
 				if (quote == undefined && details == undefined) {
 					return;
 				}
+				if(quote == undefined){
+					quote = "";
+				}				if(details == undefined){
+									quote = "";
+								}
 				let tooltip = document.getElementById("explanation");
 				tooltip.style.left = event.offsetX + 20 + 'px';
 				tooltip.style.top = event.offsetY + 20 + 'px';
 				tooltip.style.display = "block";
 				installText("explanation_title", d.data.name);
-				if (quote != undefined) {
-					installText("explanation_quote", quote);
-				}
-				if (details != undefined) {
-					installText("explanation_details", details);
-				}
+				installText("explanation_quote", quote);
+				installText("explanation_details", details);
 			}
 
 			function installText(id, text) {
