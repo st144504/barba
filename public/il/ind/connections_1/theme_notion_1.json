@@ -5,29 +5,86 @@
 			"description": "Развитие МПП"
 		},
 		{
-			"id": "pip_evolution_1",
+			"id": "pip_evolution_natural",
 			"parent": "pip_evolution",
 			"description": "Обычаи и договоренности",
-			"explanation": "Полсы др. Греции"
-		}		,
-				{
-					"id": "pip_evolution_1",
-					"parent": "pip_evolution",
-					"description": "Обычаи и договоренности",
-					"explanation": "Полсы др. Греции"
-				}
+			"explanation": "Полисы др. Греции <br/>Признавалось право на войну"
+		},
+		{
+			"id": "pip_evolution_colonies",
+			"parent": "pip_evolution",
+			"description": "Европейская кололизация",
+			"explanation": "конец XV (открытие Америки Колумбом 1492, Индии Васо Дагамоц 1488) - конец XVII (португальцы доплыли до Японии). <br/>С ними распространялось права и МПП, продолжало работать даже после разрушения колоний."
+		},
+		{
+			"id": "pip_evolution_classic",
+			"parent": "pip_evolution",
+			"description": "Классическое МПП",
+			"explanation": "Конец XVII: с завершившением экспании окончательно оформилось классическое МПП, закрепившее колониальный раздел мира"
+		},
+		{
+			"id": "pip_evolution_vestfal",
+			"parent": "pip_evolution",
+			"description": "Вестфальский мир 1648",
+			"explanation": "Завершил 30-летнюю войну, в которой католические Св. Римская империя и Испания боролись с лютеранами (с поддержкой католической Франции) за их возвращение в католический бюджет<br/>Лютеране (Швеция) победили. <br/>Уважение суверенитета государства и недопустимость невмешательства во внутренние дела государства были признан ключевым в международных отношениях. <br/>Основной источник МПП - договор между государствами"
+		},
+		{
+			"id": "pip_evolution_vestfal_principles",
+			"parent": "pip_evolution_vestfal",
+			"description": "Принципы"
+		},
+		{
+			"id": "pip_evolution_vestfal_principles_1",
+			"parent": "pip_evolution_vestfal_principles",
+			"description": "приоритет национальных интересов"
+		},
+		{
+			"id": "pip_evolution_vestfal_principles_2",
+			"parent": "pip_evolution_vestfal_principles",
+			"description": "баланс сил"
+		},
+		{
+			"id": "pip_evolution_vestfal_principles_3",
+			"parent": "pip_evolution_vestfal_principles",
+			"description": "приоритет государств — наций"
+		},
+		{
+			"id": "pip_evolution_vestfal_principles_4",
+			"parent": "pip_evolution_vestfal_principles",
+			"description": "государственный суверенитета"
+		},
+		{
+			"id": "pip_evolution_vestfal_principles_5",
+			"parent": "pip_evolution_vestfal_principles",
+			"description": "право требовать невмешательства в свои дела"
+		},
+		{
+			"id": "pip_evolution_vestfal_principles_6",
+			"parent": "pip_evolution_vestfal_principles",
+			"description": "равенство прав государств"
+		},
+		{
+			"id": "pip_evolution_vestfal_principles_7",
+			"parent": "pip_evolution_vestfal_principles",
+			"description": "обязательство выполнять подписанные договоры"
+		},
+		{
+			"id": "pip_evolution_vestfal_principles_8",
+			"parent": "pip_evolution_vestfal_principles",
+			"description": "принцип действия международного права и применения дипломатии в международных отношениях",
+			"explanation": "(соблюдение договоров стало важнейшим элементом такой практики, а международное право и регулярная дипломатическая практика — неотъемлемым атрибутом отношений между государствами"
+		},
+		{
+			"id": "pip_evolution_modern",
+			"parent": "pip_evolution",
+			"description": "Современное МПП",
+			"explanation": "Начало WWI - конец периода классического МПП - 28.06.1914. <br/>Современное МПП начинается со вступления в силу устава ООН 24.10.1945"
+		}
 	],
 	"connections": [
 		{
-			"source": "",
-			"theme": "child",
-			"location": "",
-			"details": "",
-			"quote": "",
-			"traits": [
-				"selector1",
-				"selector2"
-			]
+			"source": "uno_charter",
+			"theme": "pip_evolution_modern"
 		}
 	]
 }

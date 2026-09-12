@@ -5,6 +5,12 @@
 			"type": "c",
 			"title": "Конституция РФ",
 			"link": "http://kremlin.ru/acts/constitution"
+		},
+		{
+			"id": "uno_charter",
+			"type": "c",
+			"title": "Устав ООН",
+			"link": "http://pravo.gov.ru/proxy/ips/?doc_itself=&backlink=1&nd=102010084&page=1&rdk=0#I0"
 		}
 	]
 }
