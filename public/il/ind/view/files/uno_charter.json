@@ -2,6 +2,17 @@
 	"name": " Устав ООН",
 	"children": [
  	{
+		"name": "Устав ООН",
+		"children":[
+		{
+			"name": "ст. 2: ",
+			"cls": "uno_charter",
+			"quote": "",
+			"link": "http://pravo.gov.ru/proxy/ips/?doc_itself=&backlink=1&nd=102010084&page=1&rdk=0#I0"
+		}
+		]
+	},
+	{
 		"name": "Современное МПП",
 		"children":[
 		{

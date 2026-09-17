@@ -1,0 +1,18 @@
+{
+	"sources": [
+		{
+			"id": "ia-ven-1969",
+			"type": "ia",
+			"date": "23.05.1969",
+			"link": "https://www.un.org/ru/documents/decl_conv/conventions/law_treaties.shtml",
+			"title": "ВКПМД (Венская конвенция о праве международных договоров)"
+		},
+		{
+			"id": "ia-hel-1975",
+			"type": "ia",
+			"date": "01.08.75",
+			"link": "https://www.kontur-extern.ru/info/normativ/document/1/30039-khelsinskiy-zaklyuchitelnyy-akt-soveshchaniya-po-bezopasnosti-i-sotrudnichestvu-v-evrope",
+			"title": "Хельсинский заключительный акт СБСЕ в Европе"
+		}
+	]
+}
