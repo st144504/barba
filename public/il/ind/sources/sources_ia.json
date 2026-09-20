@@ -8,11 +8,25 @@
 			"title": "ВКПМД (Венская конвенция о праве международных договоров)"
 		},
 		{
+			"id": "ia-uno-1970",
+			"type": "ia",
+			"date": "24.10.1970",
+			"link": "https://www.un.org/ru/documents/decl_conv/declarations/intlaw_principles.shtml",
+			"title": "Декларация ООН о принципах международного права"
+		},
+		{
 			"id": "ia-hel-1975",
 			"type": "ia",
 			"date": "01.08.75",
 			"link": "https://www.kontur-extern.ru/info/normativ/document/1/30039-khelsinskiy-zaklyuchitelnyy-akt-soveshchaniya-po-bezopasnosti-i-sotrudnichestvu-v-evrope",
 			"title": "Хельсинский заключительный акт СБСЕ в Европе"
+		},
+		{
+			"id": "ia-uno-icoj",
+			"type": "ia",
+			"date": "01.08.75",
+			"link": "https://www.un.org/ru/about-us/un-charter/statute-of-the-international-court-of-justice",
+			"title": "Статут Международного Суда ООН"
 		}
 	]
 }
