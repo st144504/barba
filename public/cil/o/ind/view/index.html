@@ -5,12 +5,13 @@
 	<meta charset="utf-8">
 	<link rel="icon" href="../../../../assets/images/books16.png">
 	<link rel="stylesheet" type="text/css" href="../../../../assets/ind/infr/inspector.css">
-	<link rel="stylesheet" type="text/css" href="../../../../assets/ind/infr//tools.css">
-	<title>Почтовая связь</title>
+	<link rel="stylesheet" type="text/css" href="../../../../assets/ind/infr/tools.css">
+	<title>ГП | Обязательства</title>
 </head>
 
 <body>
 	<div id="explanation" class="tooltip">
+		<div id="explanation_title" class="title"></div>
 		<div id="explanation_details" class="details"></div>
 		<div id="explanation_quote" class="explanation"></div>
 	</div>
@@ -18,7 +19,7 @@
 		import define from "../../../../assets/ind/infr/index.js";
 		import {Runtime, Library, Inspector} from "../../../../assets/ind/infr/runtime.js";
 		const runtime = new Runtime();
-		const main = runtime.module("branches/post", define, Inspector.into(document.body));
+		const main = runtime.module("cil/o", define, Inspector.into(document.body));
 	</script>
 </body>
 

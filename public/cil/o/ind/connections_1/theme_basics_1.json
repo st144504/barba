@@ -1,0 +1,47 @@
+{
+	"themes": [
+		{
+			"id": "o_notion",
+			"description": "Понятие"
+		},
+		{
+			"id": "o_principles",
+			"description": "Принципы"
+		},
+		{
+			"id": "o_principles_proper",
+			"parent": "o_principles",
+			"description": "Надлежащего исполнения",
+			"explanation": "???"
+		},
+		{
+			"id": "o_principles_rel",
+			"parent": "o_principles",
+			"description": "Относимость",
+			"explanation": "Обязательство не касается третьих лиц"
+		}
+	],
+	"connections": [
+		{
+			"source": "gk",
+			"theme": "o_principles_proper",
+			"location": "",
+			"details": " ",
+			"quote": ""
+		},
+		{
+			"source": "gk",
+			"theme": "o_principles_rel",
+			"location": "",
+			"details": "Не порождает обязанностей для третьих лиц",
+			"quote": ""
+		},
+		{
+			"source": "gk",
+			"theme": "o_principles_rel",
+			"location": "",
+			"details": "Может порождать права для третьих лиц",
+			"quote": ""
+		}
+	]
+}
