@@ -39,6 +39,6 @@
 	],
 	"excludes": [
 		"bootstrap.min.css",
-		"/barba/public/assets/ind/infr"
+		"assets/ind/infr"
 	]
 }
