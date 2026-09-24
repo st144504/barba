@@ -1,0 +1,55 @@
+{
+	"name": " ГК РФ",
+	"children": [
+ 	{
+		"name": "Относимость",
+		"children":[
+		{
+			"name": ": Не порождает обязанностей для третьих лиц",
+			"cls": "gk",
+			"quote": "",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+		},
+		{
+			"name": ": Может порождать права для третьих лиц",
+			"cls": "gk",
+			"quote": "",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+		}
+		]
+	},
+	{
+		"name": "Надлежащего исполнения",
+		"children":[
+		{
+			"name": ":  ",
+			"cls": "gk",
+			"quote": "",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+		}
+		]
+	},
+	{
+		"name": "Перемена лиц в обязательстве",
+		"children":[
+		{
+			"name": "гл. 24: ",
+			"cls": "gk",
+			"quote": "",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+		}
+		]
+	},
+	{
+		"name": "Расходы на исполнение",
+		"children":[
+		{
+			"name": "ст. 309.1: Расходы на исполнение обязательств по общему правилу лежат на должнике",
+			"cls": "gk",
+			"quote": "",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_5142/"
+		}
+		]
+	}
+	]
+}

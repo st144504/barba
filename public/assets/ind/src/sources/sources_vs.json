@@ -49,6 +49,14 @@
 			"title": "О некоторых вопросах применения судами КАС РФ"
 		},
 		{
+			"id": "pvs-54-2017",
+			"type": "ppvs",
+			"num": "54",
+			"date": "21.12.2017",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_286129/",
+			"title": "О перемене лиц в обязательстве на основании сделки"
+		},
+		{
 			"id": "ogvs-53-2017",
 			"type": "ogvs",
 			"num": "53-КГ17-12",
@@ -74,6 +82,13 @@
 			"title": "Об оспаривании НПА и разъяснений с нормативными свойствами (21 КАС и 23 АПК)"
 		},
 		{
+			"id": "ospvs-05.06.2019",
+			"type": "ospvs",
+			"date": "05.06.2019",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_326131/",
+			"title": "ОСП: независимая гарантия"
+		},
+		{
 			"id": "pvs-20-2019",
 			"type": "aovs",
 			"num": "20",
@@ -88,6 +103,14 @@
 			"date": "14.01.2020",
 			"link": "https://legalacts.ru/sud/apelliatsionnoe-opredelenie-apelliatsionnoi-kollegii-verkhovnogo-suda-rf-ot-14012020-n-apl19-538/",
 			"title": "МО Город Новодвинск"
+		},
+		{
+			"id": "pvs-45-2020",
+			"type": "ppvs",
+			"num": "45",
+			"date": "24.12.2020",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_372286/",
+			"title": "Разрешения споров о поручительстве"
 		},
 		{
 			"id": "pvs-18-2021",
@@ -110,7 +133,7 @@
 			"type": "ospvs",
 			"date": "25.04.2025",
 			"link": "https://www.vsrf.ru/documents/all/34364/",
-			"title": "нарушения антимонопольного законодательства"
+			"title": "ОСП: нарушения антимонопольного законодательства"
 		}
 	]
 }

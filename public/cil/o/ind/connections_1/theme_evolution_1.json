@@ -1,0 +1,44 @@
+{
+	"themes": [
+		{
+			"id": "o_switch_subject",
+			"description": "Перемена лиц в обязательстве"
+		},
+		{
+			"id": "o_switch_subject_cred",
+			"parent": "o_switch_subject",
+			"description": "Цессия",
+			"explanation": "???"
+		},
+		{
+			"id": "o_switch_subject_obl",
+			"parent": "o_switch_subject",
+			"description": "Перевод долга",
+			"explanation": "???"
+		}
+	],
+	"connections": [
+		{
+			"source": "ippvas-120-2007",
+			"theme": "o_switch_subject_cred",
+			"location": "TODO",
+			"details": " ",
+			"quote": ""
+		},
+		{
+			"source": "gk",
+			"theme": "o_switch_subject",
+			"location": "гл. 24",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "pvs-54-2017",
+			"theme": "o_switch_subject"
+		},
+		{
+			"source": "doc-baybak-2018",
+			"theme": "o_switch_subject_cred"
+		}
+	]
+}

@@ -104,6 +104,11 @@
 			"id": "var",
 			"description": "Другие источники",
 			"brief": ""
+		},
+		{
+			"id": "doc",
+			"description": "Доктрина",
+			"brief": ""
 		}
 	]
 }

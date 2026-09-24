@@ -1,13 +1,30 @@
 {
 	"sources": [
 		{
+			"id": "ippvas-120-2007",
+			"type": "ippvas",
+			"num": "120",
+			"date": "30.10.2007",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_74034/5094bcde2a906064402ba40eb62a3a3d4054092d/",
+			"title": "ОСП: перемена лиц в обязательстве",
+			"status": "FUTURE:DEALS"
+		},
+		{
 			"id": "ippvas-126-2008",
 			"type": "ippvas",
 			"num": "126",
 			"date": "13.11.2008",
 			"link": "https://www.consultant.ru/document/cons_doc_LAW_82613/",
-			"title": "Обзор судебной практики: истребованием имущества из чужого незаконного владения",
+			"title": "ОСП: истребованием имущества из чужого незаконного владения",
 			"status": "FUTURE:DEALS"
+		},
+		{
+			"id": "ppvas-42-2012",
+			"type": "ppvas",
+			"num": "42",
+			"date": "12.07.2012",
+			"link": "https://www.consultant.ru/document/cons_doc_LAW_133859/",
+			"title": "О спорах, связанных с поручительством"
 		},
 		{
 			"id": "ppvas-61-2013",

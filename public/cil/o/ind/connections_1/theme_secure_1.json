@@ -1,0 +1,55 @@
+{
+	"themes": [
+		{
+			"id": "o_secure",
+			"description": "Обеспечение обязательства"
+		},
+		{
+			"id": "o_secure_pledge",
+			"parent": "o_secure",
+			"description": "Залог",
+			"explanation": "Вещное обеспечение"
+		},
+		{
+			"id": "o_secure_surety",
+			"parent": "o_secure",
+			"description": "Поручительство",
+			"explanation": "Личное обеспечение"
+		},
+		{
+			"id": "o_secure_guarantee",
+			"parent": "o_secure",
+			"description": "Независимоая зарантия",
+			"explanation": "Личное обеспечение"
+		},
+		{
+			"id": "o_secure_lenalty",
+			"parent": "o_secure",
+			"description": "Неустойка",
+			"explanation": "(Штраф, пеня). Не является полноценным обеспечением, поскольку не имеет равной ценности для кредитора"
+		}
+	],
+	"connections": [
+		{
+			"source": "ppvas-42-2012",
+			"theme": "o_secure_surety",
+			"location": "TODO",
+			"details": " ",
+			"quote": ""
+		},
+		{
+			"source": "pvs-45-2020",
+			"theme": "o_secure_surety",
+			"location": "",
+			"details": "",
+			"quote": ""
+		},
+		{
+			"source": "ospvs-05.06.2019",
+			"theme": "o_secure_guarantee",
+			"location": "",
+			"details": "",
+			"quote": ""
+		}
+	]
+}

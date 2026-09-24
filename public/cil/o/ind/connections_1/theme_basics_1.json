@@ -9,6 +9,10 @@
 			"description": "Принципы"
 		},
 		{
+			"id": "o_origin",
+			"description": "Возникновение"
+		},
+		{
 			"id": "o_principles_proper",
 			"parent": "o_principles",
 			"description": "Надлежащего исполнения",
@@ -19,6 +23,28 @@
 			"parent": "o_principles",
 			"description": "Относимость",
 			"explanation": "Обязательство не касается третьих лиц"
+		},
+		{
+			"id": "o_origin_deal",
+			"parent": "o_origin",
+			"description": "Договор"
+		},
+		{
+			"id": "o_origin_delict",
+			"parent": "o_origin",
+			"description": "Деликт"
+		},
+		{
+			"id": "o_origin_unreasonable_gains",
+			"parent": "o_origin",
+			"description": "Неосновательное обогащение",
+			"explanation": "Unreasonable gains"
+		},
+		{
+			"id": "o_origin_invalid_transaction",
+			"parent": "o_origin",
+			"description": "Недействительная сделка",
+			"explanation": "Применение последствий недействительной сделки"
 		}
 	],
 	"connections": [
