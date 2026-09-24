@@ -3,7 +3,8 @@
 		{
 			"id": "pip_principles",
 			"description": "Принципы МПП",
-			"explanation": "Носят характер jus cogens"
+			"explanation": "Носят характер jus cogens",
+			"order": "3"
 		},
 		{
 			"id": "pip_principles_uno",

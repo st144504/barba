@@ -2,7 +2,8 @@
 	"themes": [
 		{
 			"id": "pip_evolution",
-			"description": "Развитие МПП"
+			"description": "Развитие МПП",
+			"order":"2"
 		},
 		{
 			"id": "pip_evolution_natural",
