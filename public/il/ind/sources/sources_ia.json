@@ -27,6 +27,16 @@
 			"date": "01.08.75",
 			"link": "https://www.un.org/ru/about-us/un-charter/statute-of-the-international-court-of-justice",
 			"title": "Статут Международного Суда ООН"
+		},
+		{
+			"id": "ia-mun-1938",
+			"type": "ia",
+			"title": "Мюехенский сговор"
+		},
+		{
+			"id": "ia-war-1955",
+			"type": "ia",
+			"title": "Варшавский договор"
 		}
 	]
 }

@@ -1,101 +1,10 @@
 {
 	"themes": [
 		{
-			"id": "pip_agreements",
-			"description": "М договор",
-			"explanation": "МД - письменный договор, принятый в соответствии с законом, подписанный полномочными представителями двух или более государств.<br/>Наименование не имеет значения: соглашение, корнвенция, пакт, др.",
-			"order": "5"
-		},
-		{
-			"id": "pip_agreements_legislation",
-			"parent": "pip_agreements",
-			"description": "Регулирование",
-			"explanation": "осуществляется международными конвенциями и национальным законодательством"
-		},
-		{
-			"id": "pip_agreements_types",
-			"parent": "pip_agreements",
-			"description": "Типы"
-		},
-		{
-			"id": "pip_agreements_types_1",
-			"parent": "pip_agreements_types",
-			"description": "Двусторонние",
-			"explanation": ""
-		},
-		{
-			"id": "pip_agreements_types_2",
-			"parent": "pip_agreements_types",
-			"description": "Многосторонние",
-			"explanation": "новые участники могу присоединяться по общему, единогласному согласию"
-		},
-		{
-			"id": "pip_agreements_types_3",
-			"parent": "pip_agreements_types",
-			"description": "Универсальные",
-			"explanation": "новые участники могут присоединяться свободно"
-		},
-		{
-			"id": "pip_agreements_cycle",
-			"parent": "pip_agreements",
-			"description": "Жизненный цикл",
-			"explanation": "Переговоры, согласование содержания, согласование обязательности, TO BE CONTINUED..."
-		},
-		{
-			"id": "pip_agreements_create",
-			"parent": "pip_agreements_cycle",
-			"description": "Стадии принятия"
-		},
-		{
-			"id": "pip_agreements_create_1",
-			"parent": "pip_agreements_create",
-			"description": "Переговоры, подписание",
-			"explanation": "Глава государства, Правительства, МИД<br/>послы только ведут переговоры<br/>бывают спец уполномоченные, редко.<br/><br/>Заверение аутентичности документа: подписание, условное подписание, парафирование"
-		},
-		{
-			"id": "pip_agreements_create_2",
-			"parent": "pip_agreements_create",
-			"description": "Согласие на обязательность",
-			"explanation": "Осуществляется подписанием компетентным лицом.<Br/>Для важных договоров - ратификация (одобрение договора высшим законодательным обганом)."
-		},
-		{
-			"id": "pip_agreements_create_2_ratus",
-			"parent": "pip_agreements_create_2",
-			"description": "Ратификация",
-			"explanation": "Контроль законодательной власти над результатами деятельности исполнительной.<br/>Весомые не-ратификации<br/>(1)1919 Вудро Вильсон не смог убедить сенат ратифицировать Версальский мирный договор, частью которого был устав Лиги Наций, через что США не приняли в ней участие <br/>(2)СНВ-2 о ликвидации ядерного оружия наземного базирования"
-		},
-		{
-			"id": "pip_agreements_create_2_join",
-			"parent": "pip_agreements_create",
-			"description": "Присоединение",
-			"explanation": "Осуществляется в той форме, в которой рпизнается обязательность этого договора: подписание или ратификация"
-		},
-		{
-			"id": "pip_agreements_reg",
-			"parent": "pip_agreements_cycle",
-			"description": "Регистрация и публикация"
-		},
-		{
-			"id": "pip_agreements_acting",
-			"parent": "pip_agreements_cycle",
-			"description": "Вступление в силу",
-			"explanation": "(1) Уничерсальный договор вступает в силу с набором установленного числа ратификаций (статут МУС - 60). До этого момента не имеет силы, в том числе для уже ратифицировавших усастников<br/><br/>Договор о всеобъемлющем запрещении ядерных испытаний 1996 не набрал нужных ратификаций, не имеет силы"
-		},
-		{
-			"id": "pip_agreements_change",
-			"parent": "pip_agreements_cycle",
-			"description": "Поправки"
-		},
-		{
-			"id": "pip_agreements_exit",
-			"parent": "pip_agreements_cycle",
-			"description": "Прекращение действия"
-		},
-		{
-			"id": "pip_agreements_invalid",
-			"parent": "pip_agreements_cycle",
-			"description": "Признание недействительным",
-			"explanation": "В ВКПМД69 закреплены основания для признания <b>недействительным согласия государства на обязательность для него договора<b/>"
+			"id": "pip_customs",
+			"description": "Обычай",
+			"explanation": "не зафиксированное в письменном виде правило, фактически применяемое государствами для разрешения определенной ситуации",
+			"order": "6"
 		}
 	],
 	"connections": [
